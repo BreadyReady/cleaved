@@ -1,0 +1,14 @@
+state={
+	id=123
+	name="STATE_123"
+	provinces={
+		2476 3081 4718 4731 4733 4751 4765 
+	}
+	history = {
+		owner = MEW
+		add_core_of = MEW
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
