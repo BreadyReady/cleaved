@@ -2,6 +2,10 @@
 state={
 	id=118
 	name="STATE_118"
+	history = {
+		owner = OCE
+		add_core_of = OCE
+	}
 	provinces={
 		720 750 1706 1946 2423 3142 4772 4774 
 	}

@@ -1,12 +1,16 @@
 state={
 	id=117
 	name="STATE_117"
+	history = {
+		owner = OCE
+		add_core_of = OCE
+	}
 	provinces={
 		1198 1774 3080 3100 3431 3474 4590 4620 
 	}
 	history = {
-		owner = MEW
-		add_core_of = MEW
+		owner = OCE
+		add_core_of = OCE
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

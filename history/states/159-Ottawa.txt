@@ -1,0 +1,14 @@
+state={
+	id=159
+	name="STATE_159"
+	history={
+		owner = CAN
+		add_core_of = CAN
+	}
+	provinces={
+		335 773 806 971 1047 1094 1149 1384 1499 1501 1804 2128 2452 2486 2572 2728 2853 2865 3141 3187 3429 3494 3626 4071 4075 4078 4086 4105 4107 4111 4126 4127 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

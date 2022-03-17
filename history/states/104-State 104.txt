@@ -5,8 +5,8 @@ state={
 		1821 2078 2252 2839 4780 4792 4802 
 	}
 	history = {
-		owner = MEW
-		add_core_of = MEW
+		owner = OCE
+		add_core_of = OCE
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

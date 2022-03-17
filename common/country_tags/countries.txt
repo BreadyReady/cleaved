@@ -1,0 +1,7 @@
+CAN = "countries/Canada.txt"
+OCE = "countries/Atlantic Ocean.txt"
+USA = "countries/USA.txt"
+MEX = "countries/Mexico.txt"
+CEN = "countries/Central America.txt"
+CRB = "countries/Caribbean.txt"
+DEN = "countries/Denmark.txt"

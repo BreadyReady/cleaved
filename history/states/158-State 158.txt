@@ -1,0 +1,14 @@
+state={
+	id=158
+	name="STATE_158"
+	history={
+		owner = CAN
+		add_core_of = CAN
+	}
+	provinces={
+		96 233 398 547 717 877 995 1163 1268 1382 1435 1541 1882 1911 1969 2097 2240 2411 2483 2496 2556 2570 2929 3005 3088 3328 3976 3986 3996 3997 4001 4008 4013 4016 4022 4027 4032 4038 4061 5149 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

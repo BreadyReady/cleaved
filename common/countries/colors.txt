@@ -1,8 +1,28 @@
-TST = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+CAN = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 155 62 51 }
 }
-MEW = {
-	color = rgb { 101 255 255 }
-	color_ui = rgb { 101 255 255 }
+OCE = {
+	color = rgb { 0 1 110 }
+	color_ui = rgb { 0 1 110 }
+}
+USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+MEX = {
+	color = rgb { 104 152 83 }
+	color_ui = rgb { 135 198 108 }
+}
+CEN = {
+	color = rgb { 75 0 113 }
+	color_ui = rgb { 75 0 113 }
+}
+CRB = {
+	color = rgb { 233 255 0 }
+	color_ui = rgb { 233 255 0 }
+}
+DEN = {
+	color = rgb { 153 116 93 }
+	color_ui = rgb { 199 151 121 }
 }
