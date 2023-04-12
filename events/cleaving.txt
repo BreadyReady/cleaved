@@ -1,0 +1,1163 @@
+add_namespace = flavor
+add_namespace = cleaving
+add_namespace = mewni_choose
+
+country_event = {
+	id = cleaving.0
+	title = cleaving.0.t
+	desc = cleaving.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = cleaving.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		hidden_effect = {
+			set_country_flag = chosen_mew
+		}
+	}
+	
+	option = { 
+		name = cleaving.0.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		hidden_effect = {
+			set_country_flag = chosen_joh
+		}
+	}
+	
+	option = { 
+		name = cleaving.0.c
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		hidden_effect = {
+			set_country_flag = chosen_pig
+		}
+	}
+	
+	option = { 
+		name = cleaving.0.d
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		hidden_effect = {
+			set_country_flag = chosen_spi
+		}
+	}
+
+}
+
+
+country_event = {
+	id = cleaving.1
+	title = cleaving.1.t
+	desc = cleaving.1.desc
+	picture = GFX_report_event_empty
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+		immediate = {
+			if = {
+				limit = {
+					has_country_flag = chosen_mew
+				}   
+				MEW = { change_tag_from = OCE }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = chosen_joh
+				}
+				JOH = { change_tag_from = OCE }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = chosen_pig
+				}
+				PIG = { change_tag_from = OCE }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = chosen_spi
+				}
+				SPI = { change_tag_from = OCE }
+			}
+			
+			MEW = {
+				
+				country_event = { id = MEW_event.0 days = 1 }
+			
+				transfer_state = 219
+				transfer_state = 220
+				transfer_state = 221
+				transfer_state = 224
+				transfer_state = 225
+				transfer_state = 226
+				transfer_state = 230
+				transfer_state = 235
+				transfer_state = 237
+				transfer_state = 244
+
+				add_state_core = 219
+				add_state_core = 220
+				add_state_core = 221
+				add_state_core = 224
+				add_state_core = 225
+				add_state_core = 226
+				add_state_core = 230
+				add_state_core = 235
+				add_state_core = 237
+				add_state_core = 244
+				
+				load_oob = "MEW"
+			}
+		
+			JOH = {
+				transfer_state = 222
+				transfer_state = 223
+				transfer_state = 228
+				transfer_state = 229
+				transfer_state = 234
+				transfer_state = 229
+				transfer_state = 233
+				transfer_state = 232
+				transfer_state = 231
+				transfer_state = 236
+				transfer_state = 238
+				transfer_state = 239
+				transfer_state = 240
+				
+				add_state_core = 222
+				add_state_core = 223
+				add_state_core = 228
+				add_state_core = 229
+				add_state_core = 234
+				add_state_core = 229
+				add_state_core = 233
+				add_state_core = 232
+				add_state_core = 231
+				add_state_core = 236
+				add_state_core = 238
+				add_state_core = 239
+				add_state_core = 240
+			}
+			
+			PIG = {
+				transfer_state = 247
+				transfer_state = 243
+				transfer_state = 242
+				transfer_state = 246
+				transfer_state = 210
+				transfer_state = 250
+				transfer_state = 241
+				transfer_state = 245
+				transfer_state = 249
+				transfer_state = 248
+				transfer_state = 227
+				
+				add_state_core = 247
+				add_state_core = 243
+				add_state_core = 242
+				add_state_core = 246
+				add_state_core = 210
+				add_state_core = 250
+				add_state_core = 241
+				add_state_core = 245
+				add_state_core = 249
+				add_state_core = 248
+				add_state_core = 227
+			}
+			
+			SPI = {
+				transfer_state = 251
+				transfer_state = 258
+				transfer_state = 259
+				transfer_state = 260
+				transfer_state = 211
+				transfer_state = 260
+				transfer_state = 257
+				transfer_state = 256
+				transfer_state = 255
+				transfer_state = 252
+				transfer_state = 253
+				transfer_state = 254
+				transfer_state = 215
+				
+				add_state_core = 251
+				add_state_core = 258
+				add_state_core = 259
+				add_state_core = 260
+				add_state_core = 211
+				add_state_core = 260
+				add_state_core = 257
+				add_state_core = 256
+				add_state_core = 255
+				add_state_core = 252
+				add_state_core = 253
+				add_state_core = 254
+				add_state_core = 215
+			}
+
+			TRT = {
+				transfer_state = 214
+				transfer_state = 215
+				
+				add_state_core = 214
+				add_state_core = 215
+			}
+			
+			CLE = {
+				transfer_state = 218
+				transfer_state = 16
+				transfer_state = 3
+				transfer_state = 4
+				transfer_state = 5
+				transfer_state = 6
+				transfer_state = 2
+				transfer_state = 8
+				transfer_state = 9
+				transfer_state = 7
+				transfer_state = 39
+				transfer_state = 10
+				transfer_state = 11
+				transfer_state = 12
+				transfer_state = 13
+				transfer_state = 14
+				transfer_state = 20
+				transfer_state = 21
+				transfer_state = 22
+				transfer_state = 23
+				transfer_state = 24
+				transfer_state = 57
+				transfer_state = 106
+				transfer_state = 98
+				transfer_state = 116
+				transfer_state = 78
+				transfer_state = 77
+				transfer_state = 84
+				transfer_state = 87
+				transfer_state = 86
+				transfer_state = 109
+				transfer_state = 85
+				transfer_state = 86
+				transfer_state = 46
+				transfer_state = 49
+				transfer_state = 38
+				transfer_state = 48
+				transfer_state = 41
+				transfer_state = 47
+				transfer_state = 44
+				transfer_state = 40
+				transfer_state = 36
+				transfer_state = 37
+				transfer_state = 34
+				transfer_state = 35
+				transfer_state = 30
+				transfer_state = 33
+				transfer_state = 32
+				transfer_state = 27
+				transfer_state = 26
+				transfer_state = 25
+				transfer_state = 108
+				transfer_state = 28
+				transfer_state = 112
+				transfer_state = 107
+				transfer_state = 29
+				transfer_state = 31
+				transfer_state = 28
+				transfer_state = 114
+				transfer_state = 43
+				transfer_state = 42
+				transfer_state = 113
+				transfer_state = 45
+				transfer_state = 111
+				transfer_state = 51
+				transfer_state = 58
+				transfer_state = 75
+				transfer_state = 71
+				transfer_state = 80
+				transfer_state = 110
+				transfer_state = 115
+				transfer_state = 117
+				transfer_state = 62
+				transfer_state = 50
+			}
+			
+			USA = {
+				remove_state_core = 16
+				remove_state_core = 3
+				remove_state_core = 4
+				remove_state_core = 5
+				remove_state_core = 6
+				remove_state_core = 2
+				remove_state_core = 8
+				remove_state_core = 9
+				remove_state_core = 7
+				remove_state_core = 39
+				remove_state_core = 10
+				remove_state_core = 11
+				remove_state_core = 12
+				remove_state_core = 13
+				remove_state_core = 14
+				remove_state_core = 20
+				remove_state_core = 21
+				remove_state_core = 22
+				remove_state_core = 23
+				remove_state_core = 24
+				remove_state_core = 57
+				remove_state_core = 106
+				remove_state_core = 98
+				remove_state_core = 116
+				remove_state_core = 78
+				remove_state_core = 77
+				remove_state_core = 84
+				remove_state_core = 87
+				remove_state_core = 86
+				remove_state_core = 109
+				remove_state_core = 85
+				remove_state_core = 86
+				remove_state_core = 46
+				remove_state_core = 49
+				remove_state_core = 38
+				remove_state_core = 48
+				remove_state_core = 41
+				remove_state_core = 47
+				remove_state_core = 44
+				remove_state_core = 40
+				remove_state_core = 36
+				remove_state_core = 37
+				remove_state_core = 34
+				remove_state_core = 35
+				remove_state_core = 30
+				remove_state_core = 33
+				remove_state_core = 32
+				remove_state_core = 27
+				remove_state_core = 26
+				remove_state_core = 25
+				remove_state_core = 108
+				remove_state_core = 28
+				remove_state_core = 112
+				remove_state_core = 107
+				remove_state_core = 29
+				remove_state_core = 31
+				remove_state_core = 28
+				remove_state_core = 114
+				remove_state_core = 43
+				remove_state_core = 42
+				remove_state_core = 113
+				remove_state_core = 45
+				remove_state_core = 111
+				remove_state_core = 51
+				
+				add_state_claim = 16
+				add_state_claim = 3
+				add_state_claim = 4
+				add_state_claim = 5
+				add_state_claim = 6
+				add_state_claim = 2
+				add_state_claim = 8
+				add_state_claim = 9
+				add_state_claim = 7
+				add_state_claim = 39
+				add_state_claim = 10
+				add_state_claim = 11
+				add_state_claim = 12
+				add_state_claim = 13
+				add_state_claim = 14
+				add_state_claim = 20
+				add_state_claim = 21
+				add_state_claim = 22
+				add_state_claim = 23
+				add_state_claim = 24
+				add_state_claim = 57
+				add_state_claim = 106
+				add_state_claim = 98
+				add_state_claim = 116
+				add_state_claim = 78
+				add_state_claim = 77
+				add_state_claim = 84
+				add_state_claim = 87
+				add_state_claim = 86
+				add_state_claim = 109
+				add_state_claim = 85
+				add_state_claim = 86
+				add_state_claim = 46
+				add_state_claim = 49
+				add_state_claim = 38
+				add_state_claim = 48
+				add_state_claim = 41
+				add_state_claim = 47
+				add_state_claim = 44
+				add_state_claim = 40
+				add_state_claim = 36
+				add_state_claim = 37
+				add_state_claim = 34
+				add_state_claim = 35
+				add_state_claim = 30
+				add_state_claim = 33
+				add_state_claim = 32
+				add_state_claim = 27
+				add_state_claim = 26
+				add_state_claim = 25
+				add_state_claim = 108
+				add_state_claim = 28
+				add_state_claim = 112
+				add_state_claim = 107
+				add_state_claim = 29
+				add_state_claim = 31
+				add_state_claim = 28
+				add_state_claim = 114
+				add_state_claim = 43
+				add_state_claim = 42
+				add_state_claim = 113
+				add_state_claim = 45
+				add_state_claim = 111
+				add_state_claim = 51
+			}
+			
+			MEX = {
+				remove_state_core = 218
+			}
+			
+			every_country = {
+				news_event = {
+					id = cleaving_news.0
+					days = 1
+				}
+			}
+
+			set_victory_points = {
+				province = 3434
+				value = 30
+			}
+			
+			set_province_name = { id = 3434 name = "Butterfly Castle" }
+			
+			set_victory_points = {
+				province = 3476
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 1616
+				value = 15
+			}
+						
+			set_victory_points = {
+				province = 3458
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 2072
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 451
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 3403
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3438
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 3408
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 1198
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 3356
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 3414
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3320
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3414
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 1966
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 820
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 1966
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 3500
+				value = 5
+			}
+			
+			set_victory_points = {
+				province = 3485
+				value = 25
+			}
+			
+			set_victory_points = {
+				province = 3062
+				value = 25
+			}
+			
+			set_victory_points = {
+				province = 1480
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 1480
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3301
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3544
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 2322
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 2255
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 2245
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 284
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 2364
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 1390
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 2495
+				value = 20
+			}
+			
+			5 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point > 19
+					}
+				}
+			}
+			
+			224 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point > 19
+					}
+				}
+			}
+			
+			235 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point > 19
+					}
+				}
+			}
+			
+			237 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point > 19
+					}
+				}
+			}
+			
+			210 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3320
+				}
+			}
+			
+			230 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3458
+				}
+			}
+			
+			221 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 1616
+				}
+			}
+			
+			245 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 1480
+				}
+			}
+			
+			248 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3301
+				}
+			}
+			
+			247 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 820
+				}
+			}
+			
+			228 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 652
+				}
+			}
+			
+			240 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2322
+				}
+			}
+			
+			234 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3544
+				}
+			}
+			
+			47 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2255
+				}
+			}
+			
+			46 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2245
+				}
+			}
+			
+			10 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 284
+				}
+			}
+			
+			12 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3187
+				}
+			}
+			
+			29 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2364
+				}
+			}
+			
+			109 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 1390
+				}
+			}
+			
+			84 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2495
+				}
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 3434 1715 1494 3476 1450 3486 1616 }
+				start_province = 3434
+				target_province = 1616
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 3434 834 }
+				start_province = 3434
+				target_province = 834
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				#path = { 3434 834 }
+				start_province = 3434
+				target_province = 834
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 2559 3421 1775 3399 3398 2072 }
+				start_province = 2559
+				target_province = 2072
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3403
+				target_province = 2072
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1518
+				target_province = 3458
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3403
+				target_province = 3414
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1616
+				target_province = 3458
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3458
+				target_province = 3500
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3500
+				target_province = 3485
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3403
+				target_province = 1198
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1198
+				target_province = 3356
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3356
+				target_province = 1480
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1198
+				target_province = 3301
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1480
+				target_province = 3320
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3320
+				target_province = 820
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 820
+				target_province = 2322
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 2322
+				target_province = 3544
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3544
+				target_province = 278
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 278
+				target_province = 652
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3301
+				target_province = 284
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 2364
+				target_province = 3061
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1390
+				target_province = 2364
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 2495
+				target_province = 1390
+			}
+			
+		}
+}
+
+country_event = {
+	id = cleaving.2
+	title = cleaving.2.t
+	desc = cleaving.2.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = cleaving.2.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		MEW = {
+			transfer_state = 5
+			transfer_state = 4
+			transfer_state = 6
+		}
+	}
+
+}
+
+country_event = {
+	id = cleaving.3
+	title = cleaving.3.t
+	desc = cleaving.3.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = cleaving.3.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		CLE = {
+			set_cosmetic_tag = CLE_2
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+state={
+	id=13
+	name="STATE_13"
+	provinces={
+		1744 1844 2552 3132 3145 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 7
+            arms_factory = 2
+        }
+		victory_points = { 1844 25 }
+		victory_points = { 3145 15 }
+		victory_points = { 3132 5 }
+
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+ 	state_category=megalopolis
+	local_supplies=0.000
+}

@@ -1,0 +1,247 @@
+add_namespace = cleaving_news
+
+news_event = {
+	id = cleaving_news.0
+    title = {
+        text = cleaving_news.0.t.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    title = {
+        text = cleaving_news.0.t.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    title = {
+        text = cleaving_news.0.t
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+    }
+    desc = {
+        text = cleaving_news.0.desc.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    desc = {
+        text = cleaving_news.0.desc.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+	desc = {
+		text = cleaving_news.0.desc
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+	}
+	
+	picture =
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+    option = {
+        name = cleaving_news.0.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    option = {
+        name = cleaving_news.0.b
+        trigger = {
+            tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    option = {
+        name = cleaving_news.0.c
+        trigger = {
+            NOT = { tag = MEW }
+			NOT = { tag = USA }
+        }
+    }
+
+}
+
+news_event = {
+	id = cleaving_news.1
+    title = {
+        text = cleaving_news.1.t.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    title = {
+        text = cleaving_news.1.t.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    title = {
+        text = cleaving_news.1.t
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+    }
+    desc = {
+        text = cleaving_news.1.desc.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    desc = {
+        text = cleaving_news.1.desc.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+	desc = {
+		text = cleaving_news.1.desc
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+	}
+	
+	picture =
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+    option = {
+        name = cleaving_news.1.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+		hidden_effect = {
+			CLE = {
+				set_cosmetic_tag = CLE_2
+			}
+		}
+    }
+    option = {
+        name = cleaving_news.1.b
+        trigger = {
+            tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    option = {
+        name = cleaving_news.1.c
+        trigger = {
+            NOT = { tag = MEW }
+			NOT = { tag = USA }
+        }
+    }
+
+}
+
+news_event = {
+	id = cleaving_news.2
+    title = {
+        text = cleaving_news.2.t.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    title = {
+        text = cleaving_news.2.t.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    title = {
+        text = cleaving_news.2.t
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+    }
+    desc = {
+        text = cleaving_news.2.desc.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    desc = {
+        text = cleaving_news.2.desc.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+	desc = {
+		text = cleaving_news.2.desc
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+	}
+	
+	picture = 
+	
+	major = yes
+	trigger = {
+		date > 2018.2.1
+	}
+	
+	immediate = {
+	}
+	
+    option = {
+        name = cleaving_news.2.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+		#add_popularity = {
+		#	ideology = democratic
+		#	popularity = 0.05
+		#}
+		add_timed_idea = {
+			idea = democratic_influence
+			days = 365
+		}
+    }
+    option = {
+        name = cleaving_news.2.b
+        trigger = {
+            tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    option = {
+        name = cleaving_news.2.c
+        trigger = {
+            NOT = { tag = MEW }
+			NOT = { tag = USA }
+        }
+    }
+
+}

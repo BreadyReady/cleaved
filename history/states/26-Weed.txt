@@ -1,0 +1,15 @@
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		1416 1641 1924 2432 2906 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

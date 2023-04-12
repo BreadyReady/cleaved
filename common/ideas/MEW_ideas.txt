@@ -1,0 +1,436 @@
+ideas = {
+	country = {
+		MEW_whole_new_world = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.1
+				
+			}
+		}
+		MEW_whole_new_world_2 = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.05
+				
+			}
+		}
+		
+		MEW_mina_on_the_loose = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.05
+				political_power_gain = -0.15
+				
+			}
+		}
+		
+		MEW_recent_strife = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.1
+				political_power_gain = -0.25
+				
+			}
+		}
+
+		MEW_feudal_promise = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.05
+				political_power_gain = 0.05
+				
+			}
+		}
+		
+		MEW_squire_process = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				training_time_factor = 0.3
+				minimum_training_level = 0.3 
+			}
+		}
+		
+		MEW_squire_process_2 = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				training_time_factor = 0.1
+				minimum_training_level = 0.15
+			}
+		}
+		
+		MEW_empower_knights = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = 0.2
+				war_support_factor = 0.05
+				stability_factor = 0.02
+			}
+		}
+		
+		MEW_empower_knights_2 = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = 0.25
+				war_support_factor = 0.07
+				stability_factor = 0.025
+				army_attack_factor = 0.05
+			}
+		}
+
+		MEW_civ_build_idea = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				production_speed_industrial_complex_factor = 1
+				production_speed_infrastructure_factor = 0.5
+				production_speed_railway_factor = 0.5 
+				
+			}
+		}
+
+		MEW_blank_slate_idea = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				land_doctrine_cost_factor = -0.3
+				experience_gain_army_factor = 0.2
+				high_command_cost_factor = -0.1
+				
+			}
+		}
+		
+		MEW_independent_tech = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.05
+			}
+		}
+		MEW_independent_tech_2 = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.1
+				political_power_gain = 0.15
+				stability_factor = 0.03
+			}
+		}
+		MEW_rejected_modern = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = -0.15
+				political_power_gain = 0.15
+				stability_factor = 0.1
+			}
+		}
+
+	}
+	
+	#RESEARCH & PRODUCTION
+	industrial_concern = {
+		MEW_industrial_concern_trad = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			#research_bonus = {
+			#	industry = 0.05
+			#	synth_resources = 0.15
+			#}
+			
+			traits = { quality_concern mewman_traditionalist }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		MEW_industrial_concern_prog = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			#research_bonus = {
+			#	industry = 0.05
+			#	synth_resources = 0.15
+			#}
+			
+			traits = { mass_manufacture mewman_progressive }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		MEW_industrial_concern_neut = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			research_bonus = {
+				electronics = 0.05
+			}
+			
+			traits = { electronics_concern mewman_moderate }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+	}
+	
+	#TRAD = QUALITY
+	#PROG = QUANTITY
+	#NEUT = TECH
+	
+	materiel_manufacturer = {
+	
+		designer = yes
+	
+		MEW_materiel_manufacturer_trad = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_idea = MEW_industrial_concern_trad
+				has_completed_focus = MEW_economic_affair
+			}
+			
+			traits = { mewman_traditionalist }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		MEW_materiel_manufacturer_prog = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_idea = MEW_industrial_concern_prog
+				has_completed_focus = MEW_economic_affair
+			}
+			
+			traits = { mewman_progressive }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		MEW_materiel_manufacturer_neut = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_idea = MEW_industrial_concern_neut
+				has_completed_focus = MEW_economic_affair
+			}
+			
+			traits = { mewman_moderate }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	aircraft_manufacturer = {
+	
+		designer = yes
+		
+		MEW_aircraft_manufacturer_prog = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_idea = MEW_industrial_concern_prog
+				has_completed_focus = MEW_economic_affair
+			}
+			
+			traits = { mewman_progressive }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		MEW_aircraft_manufacturer_neut = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_idea = MEW_industrial_concern_neut
+				has_completed_focus = MEW_economic_affair
+			}
+			
+			traits = { mewman_moderate }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	naval_manufacturer = {
+	
+		designer = yes
+		
+		MEW_naval_manufacturer_prog = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_idea = MEW_industrial_concern_prog
+				has_completed_focus = MEW_economic_affair
+			}
+			
+			traits = { mewman_progressive }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		MEW_naval_manufacturer_neut = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_idea = MEW_industrial_concern_neut
+				has_completed_focus = MEW_economic_affair
+			}
+			
+			traits = { mewman_moderate }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	tank_manufacturer = {
+	
+		designer = yes
+		
+		MEW_tank_manufacturer_prog = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_idea = MEW_industrial_concern_prog
+				has_completed_focus = MEW_economic_affair
+			}
+			
+			traits = { mewman_progressive }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		MEW_tank_manufacturer_neut = {
+			
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_idea = MEW_industrial_concern_neut
+				has_completed_focus = MEW_economic_affair
+			}
+			
+			traits = { mewman_moderate }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+
+}

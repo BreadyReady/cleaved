@@ -1,0 +1,858 @@
+add_namespace = MEW_test
+add_namespace = MEW_event
+add_namespace = MEW_mina_hunt
+add_namespace = MEW_full_desk
+add_namespace = MEW_cleaved_land
+add_namespace = MEW_minor_revolt
+add_namespace = MEW_flavor
+add_namespace = MEW_civil_war
+add_namespace = MEW_tithe
+
+country_event = {
+	id = MEW_tithe.1
+	title = MEW_tithe.1.t
+	desc = MEW_tithe.1.desc
+	picture = GFX_report_event_empty
+	
+	trigger = {
+		has_idea = MEW_feudal_promise
+		date > 2018.01.01
+		NOT = {
+			has_country_flag = tithe_timer
+		}
+	}
+	
+	option = {
+		name = MEW_tithe.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_manpower = 30000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 2500
+			producer = MEW
+		}
+		add_offsite_building = { type = industrial_complex level = 5 }
+		set_country_flag = {
+			flag = tithe_timer
+			days = 365
+			value = 1
+		}
+	}
+	
+	option = {
+		name = MEW_tithe.1.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_political_power = 150
+		set_country_flag = {
+			flag = tithe_timer
+			days = 365
+			value = 1
+		}
+	}
+	
+}
+
+country_event = {
+	id = MEW_flavor.1
+	title = MEW_flavor.1.t
+	desc = MEW_flavor.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_flavor.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+	
+}
+
+country_event = { #Mewnipendance day
+	id = MEW_flavor.2
+	title = MEW_flavor.2.t
+	desc = MEW_flavor.2.desc
+	picture = GFX_report_event_empty
+	
+	trigger = {
+		date > 2018.12.1
+	}
+	
+	option = { 
+		name = MEW_flavor.2.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = 0.05
+	}
+	
+}
+
+country_event = {
+	id = MEW_minor_revolt.1
+	title = MEW_minor_revolt.1.t
+	desc = MEW_minor_revolt.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_minor_revolt.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		KGT = {
+			transfer_state = 5
+			declare_war_on = {
+				target = MEW
+				type = civil_war
+			}
+			load_oob = MEW_knight_personal
+		}
+	}
+	
+}
+
+country_event = {
+	id = MEW_minor_revolt.2
+	title = MEW_minor_revolt.2.t
+	desc = MEW_minor_revolt.2.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_minor_revolt.2.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		VSL = {
+			transfer_state = 219
+			declare_war_on = {
+				target = MEW
+				type = civil_war
+			}
+			load_oob = MEW_vassal_revolt
+		}
+	}
+	
+}
+
+country_event = {
+	id = MEW_minor_revolt.3 #Knights
+	title = MEW_minor_revolt.3.t
+	desc = MEW_minor_revolt.3.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_minor_revolt.3.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		set_country_flag = opress_knights
+	}
+	
+	option = {
+		name = MEW_minor_revolt.3.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+	
+}
+
+country_event = {
+	id = MEW_minor_revolt.4 #Royals
+	title = MEW_minor_revolt.4.t
+	desc = MEW_minor_revolt.4.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_minor_revolt.4.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		set_country_flag = opress_royals
+	}
+	
+	option = {
+		name = MEW_minor_revolt.4.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+	
+}
+
+country_event = {
+	id = MEW_test.1
+	title = MEW_test.1.t
+	desc = MEW_test.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_test.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		set_country_flag = hunting_mina_cleaved_zone_jurisdiction
+	}
+	
+}
+
+country_event = {
+	id = MEW_test.2 #prog v trad v neut check
+	title = MEW_test.2.t
+	desc = MEW_test.2.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_test.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+	
+}
+
+country_event = {
+	id = MEW_test.3
+	title = MEW_test.3.t
+	desc = MEW_test.3.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_test.3.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		d01 = {
+			promote_character = MEW_eclipsa_butterfly
+		}
+	}
+	
+}
+
+country_event = {
+	id = MEW_event.0
+	title = MEW_event.0.t
+	desc = MEW_event.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_event.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		MEW = {
+			transfer_state = 5
+			transfer_state = 4
+			transfer_state = 6
+		}
+		add_manpower = 30000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 30000
+			producer = MEW
+		}
+		add_stability = 0.05
+		hidden_effect = {
+			country_event = {
+				id = MEW_event.1
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = MEW_event.1
+	title = MEW_event.1.t
+	desc = MEW_event.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_event.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		MEW = {
+			transfer_state = 218
+			transfer_state = 3
+			transfer_state = 16
+			transfer_state = 2
+		}
+		add_stability = 0.05
+	}
+	
+}
+
+country_event = {
+	id = MEW_event.2
+	title = MEW_event.2.t
+	desc = MEW_event.2.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_event.2.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		complete_national_focus = MEW_protect_sovereignty
+		set_country_flag = MEW_cleaved_land_hostile
+		USA = {
+			set_country_flag = MEW_cleaved_land_hostile
+		}
+	}
+#	option = {
+#		name = MEW_event.2.b
+#		ai_chance = { factor = 60 }	# 60% AI choose this
+#		complete_national_focus = MEW_negotiation_over_cleaved
+#		set_country_flag = MEW_cleaved_land_peace
+#		USA = {
+#			set_country_flag = MEW_cleaved_land_peace
+#		}
+#	}
+}
+
+country_event = {
+	id = MEW_event.3
+	title = MEW_event.3.t
+	desc = MEW_event.3.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_event.3.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		complete_national_focus = MEW_rise_of_the_parties
+		custom_effect_tooltip = MEW_event.3_tooltip
+	}
+	
+}
+
+country_event = {
+	id = MEW_event.4 #modernization
+	title = MEW_event.4.t
+	desc = MEW_event.4.desc
+	picture = GFX_report_event_empty
+	
+	trigger = {
+		has_completed_focus = MEW_rise_of_the_parties
+		NOT = {
+			has_completed_focus = MEW_modernization
+			has_country_flag = stop_modernization_event
+		}
+	}
+		
+	option = { 
+		name = MEW_event.4.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		complete_national_focus = MEW_modernization
+		add_stability = -0.025
+	}
+		
+	option = { 
+		name = MEW_event.4.b
+		ai_chance = { factor = 30 }	# 60% AI choose this
+		add_stability = 0.005
+		custom_effect_tooltip = MEW_event.4.b_tooltip
+	}
+		
+	option = { 
+		name = MEW_event.4.c
+		ai_chance = { factor = 30 }	# 60% AI choose this
+		set_country_flag = stop_modernization_event
+		add_ideas = MEW_rejected_modern
+	}
+	
+}
+
+country_event = { #two speeches meetings
+	id = MEW_event.5
+	title = MEW_event.5.t
+	desc = MEW_event.5.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_event.5.a
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_prog
+			value = 1
+			tooltip = mew_prog_tooltip
+		}
+		country_event = { id = MEW_flavor.3 days = 1 }	}
+	
+	option = {
+		name = MEW_event.5.b
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_trad
+			value = 1
+			tooltip = mew_trad_tooltip
+		}
+		country_event = { id = MEW_flavor.4 days = 1 }
+	}
+	
+	option = {
+		name = MEW_event.5.c
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_neut
+			value = 1
+			tooltip = mew_neut_tooltip
+		}
+		add_stability = -0.05
+	}
+	
+}
+
+country_event = {
+	id = MEW_flavor.3 #prog speech
+	title = MEW_flavor.3.t
+	desc = MEW_flavor.3.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_flavor.3.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+	
+}
+
+country_event = {
+	id = MEW_flavor.4 #trad speech
+	title = MEW_flavor.4.t
+	desc = MEW_flavor.4.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_flavor.4.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+	
+}
+
+country_event = { #peasant Affair
+	id = MEW_event.6
+	title = MEW_event.6.t
+	desc = MEW_event.6.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_event.6.a
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_prog
+			value = 1
+			tooltip = mew_prog_tooltip
+		}
+		add_war_support = 0.05
+		add_stability = -0.05
+	}
+	
+	option = {
+		name = MEW_event.6.b
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_trad
+			value = 1
+			tooltip = mew_trad_tooltip
+		}
+		add_war_support = -0.05
+		add_stability = 0.05
+		
+	}
+	
+	option = {
+		name = MEW_event.6.c
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_neut
+			value = 1
+			tooltip = mew_neut_tooltip
+		}
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	
+}
+
+country_event = { #mewnipendance day. renactment?
+	id = MEW_event.7
+	title = MEW_event.7.t
+	desc = MEW_event.7.desc
+	picture = GFX_report_event_empty
+	
+	trigger = {
+		date > 2018.7.1
+	}
+	
+	option = {
+		name = MEW_event.7.a
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_prog
+			value = 1
+			tooltip = mew_prog_tooltip
+		}
+	}
+	
+	option = {
+		name = MEW_event.7.b
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_trad
+			value = 1
+			tooltip = mew_trad_tooltip
+		}
+		
+	}
+	
+	option = {
+		name = MEW_event.7.c
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_neut
+			value = 1
+			tooltip = mew_neut_tooltip
+		}
+		add_stability = -0.025
+	}
+	
+}
+
+country_event = { #hill of flags
+	id = MEW_event.8
+	title = MEW_event.8.t
+	desc = MEW_event.8.desc
+	picture = GFX_report_event_empty
+	
+	trigger = {
+		date > 2018.5.1
+	}
+	
+	option = {
+		name = MEW_event.8.a
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_prog
+			value = 1
+			tooltip = mew_prog_tooltip
+		}
+	}
+	
+	option = {
+		name = MEW_event.8.b
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_trad
+			value = 1
+			tooltip = mew_trad_tooltip
+		}
+		
+	}
+	
+	option = {
+		name = MEW_event.8.c
+		ai_chance = { factor = 60 }
+		add_to_variable = {
+			var = mew_neut
+			value = 1
+			tooltip = mew_neut_tooltip
+		}
+		add_stability = -0.025
+	}
+	
+}
+
+country_event = {
+	id = MEW_mina_hunt.1
+	title = MEW_event.1.t
+	desc = MEW_event.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_event.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+country_event = {
+	id = MEW_mina_hunt.2
+	title = MEW_mina_hunt.2.t
+	desc = MEW_mina_hunt.2.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_mina_hunt.2.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_political_power = 10
+		add_stability = 0.01
+	}
+}
+
+country_event = {
+	id = MEW_mina_hunt.3
+	title = MEW_event.3.t
+	desc = MEW_event.3.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_event.3.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		remove_ideas = MEW_mina_on_the_loose
+		remove_mission = MEW_hunt_for_mina_countdown
+		clr_country_flag = hunting_mina
+	}
+}
+
+country_event = {
+	id = MEW_mina_hunt.4
+	title = MEW_mina_hunt.4.t
+	desc = MEW_mina_hunt.4.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_mina_hunt.4.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		USA = {
+			country_event = {
+				id = MEW_mina_hunt.5
+				days = 3
+			}
+		}
+	}
+	option = {
+		name = MEW_mina_hunt.4.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+country_event = {
+	id = MEW_mina_hunt.5
+	title = MEW_mina_hunt.5.t
+	desc = MEW_mina_hunt.5.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_mina_hunt.5.a
+		ai_chance = { factor = 25 }	# 60% AI choose this
+		MEW = {
+			country_event = MEW_mina_hunt.6
+		}
+	}
+	option = {
+		name = MEW_mina_hunt.5.b
+		ai_chance = { factor = 75 }	# 60% AI choose this
+		MEW = {
+			country_event = MEW_mina_hunt.7
+		}
+	}
+}
+
+country_event = {
+	id = MEW_mina_hunt.6
+	title = MEW_mina_hunt.6.t
+	desc = MEW_mina_hunt.6.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_mina_hunt.6.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = -0.02
+	}
+}
+
+country_event = {
+	id = MEW_mina_hunt.7
+	title = MEW_mina_hunt.7.t
+	desc = MEW_mina_hunt.7.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_mina_hunt.7.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		set_country_flag = hunting_mina_cleaved_zone_jurisdiction
+	}
+}
+
+country_event = {
+	id = MEW_full_desk.0
+	title = MEW_full_desk.0.t
+	desc = MEW_full_desk.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_full_desk.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		set_country_flag = mew_full_desk
+	}
+}
+
+country_event = {
+	id = MEW_full_desk.1
+	title = MEW_full_desk.1.t
+	desc = MEW_full_desk.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_full_desk.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = 0.02
+	}
+}
+
+country_event = { #Unfinished system of peacful cleazed zone taking
+	id = MEW_cleaved_land.0
+	title = MEW_cleaved_land.0.t
+	desc = MEW_cleaved_land.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_cleaved_land.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		set_country_flag = MEW_cleaved_land
+	}
+}
+
+country_event = {
+	id = MEW_cleaved_land.1
+	title = MEW_cleaved_land.1.t
+	desc = MEW_cleaved_land.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_cleaved_land.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		
+	}
+}
+
+country_event = {
+	id = MEW_civil_war.0
+	title = MEW_civil_war.0.t
+	desc = MEW_civil_war.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_civil_war.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		start_civil_war = {
+			ideology = neutrality
+			size = 0.4
+			keep_political_leader = no
+			keep_all_characters = no
+			capital = 224
+			PREV.PREV = {
+				set_cosmetic_tag = MON
+			}
+		}
+		#GET SOMEONE TO PLAYTEST AND SEE IF MINOR REVOLTS SHOULD BE DURING THE CIVIL WAR
+		#IF = {
+		#	limit = { has_completed_focus = opress_knights }
+		#	hidden_effect = {
+		#		country_event = { id = MEW_minor_revolt.1 days = 28 }
+		#	}
+		#}
+		#IF = {
+		#	limit = { has_completed_focus = opress_royals }
+		#	hidden_effect = {
+		#		country_event = { id = MEW_minor_revolt.2 days = 28 }
+		#	}
+		#}
+		#####
+		#IF = {
+		#	limit = { has_completed_focus = MEW_break_the_promise }
+		#	hidden_effect = {
+		#		country_event = { id = MEW_minor_revolt.1 days = 28 }
+		#	}
+		#}
+		#IF = {
+		#	limit = { has_completed_focus = MEW_abolish_knights }
+		#	hidden_effect = {
+		#		country_event = { id = MEW_minor_revolt.2 days = 28 }
+		#	}
+		#}
+	}
+	
+	option = {
+		name = MEW_civil_war.0.b #PLAY AS MOON
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		start_civil_war = {
+			ideology = mewman_monarchy
+			size = 0.6
+			keep_unit_leaders_trigger = {
+				has_trait = mewman_traditionalist
+			}
+			keep_political_leader = yes
+			keep_all_characters = no
+			capital = 5
+			PREV = {
+				MEW_eclipsa_butterfly = {
+					set_nationality = PREV.PREV
+				}
+			}
+			promote_character = MEW_eclipsa_butterfly
+		}
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			last_election = "1935.12.17"
+			election_frequency = 48
+			long_name = TAG_party_long
+			name = TAG_party
+		}
+		set_cosmetic_tag = MON
+		promote_character = MEW_moon_butterfly
+		#GET SOMEONE TO PLAYTEST AND SEE IF MINOR REVOLTS SHOULD BE DURING THE CIVIL WAR
+		#IF = {
+		#	limit = { has_completed_focus = opress_knights }
+		#	hidden_effect = {
+		#		country_event = { id = MEW_minor_revolt.1 days = 28 }
+		#	}
+		#}
+		#IF = {
+		#	limit = { has_completed_focus = opress_royals }
+		#	hidden_effect = {
+		#		country_event = { id = MEW_minor_revolt.2 days = 28 }
+		#	}
+		#}
+		#####
+		#IF = {
+		#	limit = { has_completed_focus = MEW_break_the_promise }
+		#	hidden_effect = {
+		#		country_event = { id = MEW_minor_revolt.1 days = 28 }
+		#	}
+		#}
+		#IF = {
+		#	limit = { has_completed_focus = MEW_abolish_knights }
+		#	hidden_effect = {
+		#		country_event = { id = MEW_minor_revolt.2 days = 28 }
+		#	}
+		#}
+	}
+}

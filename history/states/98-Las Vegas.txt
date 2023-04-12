@@ -1,0 +1,22 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		1565 2278 3261 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		victory_points = { 2278 20 }
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 7
+            arms_factory = 2
+        }
+
+	}
+	manpower=646790
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

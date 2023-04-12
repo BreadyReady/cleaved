@@ -1,0 +1,4 @@
+﻿capital = 1
+ideas = {
+	not_country
+}

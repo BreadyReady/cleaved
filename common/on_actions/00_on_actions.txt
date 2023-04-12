@@ -1,0 +1,35 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				country_event = welcome.0
+			}
+			OCE = {
+				country_event = { id = cleaving.0 days = 1 }
+				country_event = { id = cleaving.1 days = 48 }
+			}
+			MEW = {
+				set_variable  = {
+					var = eclipsa_cold
+					value = 0
+				}
+				set_variable  = {
+					var = mew_prog
+					value = 0
+				}
+				set_variable  = {
+					var = mew_trad
+					value = 0
+				}
+				set_variable  = {
+					var = mew_neut
+					value = 0
+				}
+				set_variable  = {
+					var = mew_us_inf
+					value = 0
+				}
+			}
+		}
+	}
+}
