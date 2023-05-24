@@ -8,6 +8,8 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_core_of = CAL
+		add_claim_by = SPI
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

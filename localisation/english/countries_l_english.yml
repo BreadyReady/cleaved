@@ -7,6 +7,18 @@
  USA_DEF:0 "The United States"
  USA_ADJ:0 "American"
  
+ CAL:0 "Sacramento Administration"
+ CAL_DEF:0 "The Sacramento Administration"
+ CAL_ADJ:0 "Mewmano-Californian"
+ 
+ MST:0 "Mojave United Tribes"
+ MST_DEF:0 "The United Mojave Tribes"
+ MST_ADJ:0 "Mojave Tribals"
+ 
+ SPT:0 "Septarsis"
+ SPT_DEF:0 "The Septarian Horde"
+ SPT_ADJ:0 "Septarian"
+ 
  CAN:0 "Canada"
  CAN_DEF:0 "Canada"
  CAN_ADJ:0 "Canadian"
@@ -30,6 +42,10 @@
  VSL:0 "Vassal Revolt"
  VSL_DEF:0 "The Vassal Revolt"
  VSL_ADJ:0 "Revolters"
+ 
+ MIN:0 "Mina's Clique"
+ MIN_DEF:0 "The Clique"
+ MIN_ADJ:0 "Loveberrian"
  
  JOH:0 "Johansen Kingdom"
  JOH_DEF:0 "The Johansen Kingdom"
@@ -76,13 +92,13 @@
  JAM_ADJ:0 "Jamaican"
  
  DEN:0 "Denmark"
- DEN_DEF:0 "Danish"
+ DEN_DEF:0 "The Danish"
  DEN_ADJ:0 "Danish"
  
  RUS:0 "Russia"
  RUS_DEF:0 "Russo"
  RUS_ADJ:0 "Russian"
 
- MON:0 "Traditionalist Mewni"
- MON_DEF:0 "Traditionalist Mewni"
+ MON:0 "Traditionalist Revolt"
+ MON_DEF:0 "The Traditionalists"
  MON_ADJ:0 "Traditionalst Mewman"

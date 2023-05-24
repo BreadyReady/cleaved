@@ -6,7 +6,7 @@ country_event = {
 	id = cleaving.0
 	title = cleaving.0.t
 	desc = cleaving.0.desc
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_empty_event
 	
 	is_triggered_only = yes
 	
@@ -49,7 +49,7 @@ country_event = {
 	id = cleaving.1
 	title = cleaving.1.t
 	desc = cleaving.1.desc
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_empty_event
 	hidden = yes
 	
 	is_triggered_only = yes
@@ -580,6 +580,11 @@ country_event = {
 				value = 20
 			}
 			
+			set_victory_points = {
+				province = 3250
+				value = 20
+			}
+			
 			5 = {
 				add_building_construction = {
 					type = supply_node
@@ -769,6 +774,15 @@ country_event = {
 					level = 1
 					instant_build = yes
 					province = 2495
+				}
+			}
+			
+			71 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3250
 				}
 			}
 			
@@ -1128,7 +1142,7 @@ country_event = {
 	id = cleaving.2
 	title = cleaving.2.t
 	desc = cleaving.2.desc
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_empty_event
 	
 	is_triggered_only = yes
 	
@@ -1148,7 +1162,7 @@ country_event = {
 	id = cleaving.3
 	title = cleaving.3.t
 	desc = cleaving.3.desc
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_empty_event
 	
 	is_triggered_only = yes
 	
@@ -1158,6 +1172,165 @@ country_event = {
 		CLE = {
 			set_cosmetic_tag = CLE_2
 		}
+	}
+
+}
+
+country_event = {
+	id = cleaving.4 #Sacramento
+	title = cleaving.4.t
+	desc = cleaving.4.desc
+	picture = GFX_report_event_empty_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		IF = {
+			limit = {
+				NOT = {
+					country_exists = CAL
+				}
+			}
+			CAL = {
+				set_state_owner = 30
+				load_oob = "CAL"
+				declare_war_on = {
+					target = CLE
+					type = annex_everything
+				}
+			}
+			every_country = {
+				news_event = { id = cleaving_news.3 days = 3 }
+			}
+		}
+		ELSE_IF = {
+			limit = {
+				country_exists = CAL
+			}
+		}
+	}
+	
+	
+	option = {
+		name = cleaving.4.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+
+	option = {
+		name = cleaving.4.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		CAL = { change_tag_from = ROOT }
+	}
+
+}
+
+country_event = {
+	id = cleaving.5
+	title = cleaving.5.t
+	desc = cleaving.5.desc
+	picture = GFX_report_event_empty_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		IF = {
+			limit = {
+				NOT = {
+					country_exists = MST
+				}
+			}
+			MST = {
+				set_state_owner = 71
+				load_oob = "MST"
+				declare_war_on = {
+					target = CLE
+					type = annex_everything
+				}
+			}
+			every_country = {
+				news_event = { id = cleaving_news.4 days = 3 }
+			}
+		}
+		ELSE_IF = {
+			limit = {
+				country_exists = MST
+			}
+		}
+	}
+	
+	
+	option = {
+		name = cleaving.5.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+
+	option = {
+		name = cleaving.5.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		MST = { change_tag_from = ROOT }
+	}
+
+}
+
+country_event = {
+	id = cleaving.6
+	title = cleaving.6.t
+	desc = cleaving.3.desc
+	picture = GFX_report_event_empty_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		IF = {
+			limit = {
+				NOT = {
+					country_exists = SPT
+				}
+			}
+			SPT = {
+				set_state_owner = 84
+				load_oob = "SPT"
+				declare_war_on = {
+					target = CLE
+					type = annex_everything
+				}
+			}
+			every_country = {
+				news_event = { id = cleaving_news.5 days = 3 }
+			}
+		}
+		ELSE_IF = {
+			limit = {
+				country_exists = SPT
+			}
+		}
+	}
+	
+	
+	option = {
+		name = cleaving.6.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+
+	option = {
+		name = cleaving.6.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		SPT = { change_tag_from = ROOT }
+	}
+
+}
+
+country_event = { #Cowboy vigilantes in cleaved
+	id = flavor.3
+	title = flavor.3.t
+	desc = flavor.3.desc
+	picture = GFX_report_event_empty_event
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = flavor.3.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
 	}
 
 }

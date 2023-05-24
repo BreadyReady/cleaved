@@ -13,8 +13,28 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_portrait_MEW_marco_diaz"
+		texturefile = "gfx/leaders/MEW/portrait_MEW_marco_diaz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_MEW_marco_diaz_2"
+		texturefile = "gfx/leaders/MEW/portrait_MEW_marco_diaz_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_higgs"
+		texturefile = "gfx/leaders/MEW/portrait_higgs.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_hoi4_portrait_moon_war"
 		texturefile = "gfx/leaders/MON/hoi4_portrait_moon_war.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_hoi4_portrait_trad_council"
+		texturefile = "gfx/leaders/MON/hoi4_portrait_trad_council.dds"
 	}
 	
 	#JOH

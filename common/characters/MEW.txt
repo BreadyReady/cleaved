@@ -13,6 +13,22 @@ characters={
 			id=-1
 		}
 	}
+	MEW_prog_council = {
+		name = MEW_prog_council
+		portraits={
+			civilian={
+				#large = GFX_hoi4_portrait_moon_war
+			}
+		}
+	}
+	MEW_royal_regent_council = {
+		name = MEW_royal_regent_council
+		portraits={
+			civilian={
+				#large = GFX_hoi4_portrait_moon_war
+			}
+		}
+	}
 	MEW_moon_butterfly = {
 		name = "Moon Butterfly"
 		portraits={
@@ -20,17 +36,27 @@ characters={
 				large = GFX_hoi4_portrait_moon_war
 			}
 		}
+	}
+	MEW_trad_council = {
+		name = "Traditionalist Council"
+		portraits={
+			civilian={
+				large = GFX_hoi4_portrait_trad_council
+			}
+		}
 		country_leader={
-			ideology = oligarchism
-			traits= { the_undaunted mewman_progressive }
+			ideology = provisional_government
+			traits= { mewman_traditionalist }
 			expire="2040.1.1.1"
 		}
 	}
 	
 	#TRAD CHARACTERS ARE BASED ON QUALITY, PROG CHARACTERS ARE BASED ON QUANTITY AND TECH
 	
-	MEW_marco_diaz={
-		name=MEW_marco_diaz
+	#For the first advisors: Remove amount taken ideas, have focus remove other advisors
+	
+	MEW_mina_loveberry={
+		name=MEW_mina_loveberry
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_1"
@@ -38,19 +64,40 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
+			idea_token = MEW_mina_loveberry_idea
+			available  = {
+			}
+			traits  = {
+				last_solarian
+			}
+		}
+	}
+	
+	MEW_marco_diaz={
+		name=MEW_marco_diaz
+		portraits={
+			civilian={
+				small="GFX_idea_marco_advisor"
+				large = "GFX_portrait_MEW_marco_diaz"
+			}
+		}
+		advisor={
+			slot = political_advisor
 			idea_token = MEW_marco_diaz
 			available  = {
 				original_tag  = MEW
-				amount_taken_ideas = {
-					amount < 1
-					slots = {
-						political_advisor
+				NOT = {
+					MEW_political_trad_char = {
+						is_political_advisor = yes
+					}
+					MEW_political_prog_char = {
+						is_political_advisor = yes
 					}
 				}
 			}
 			traits  = {
 				nepotistic_pick
-				mewman_moderate
+				#mewman_moderate
 			}
 		}
 	}
@@ -67,19 +114,18 @@ characters={
 			idea_token = MEW_political_trad_char
 			available  = {
 				original_tag  = MEW
-				amount_taken_ideas = {
-					amount < 1
-					slots = {
-						political_advisor
-					}
-				}
 				NOT = {
-					has_completed_focus = MEW_advisor_affair
+					MEW_marco_diaz = {
+						is_political_advisor = yes
+					}
+					MEW_political_prog_char = {
+						is_political_advisor = yes
+					}
 				}
 			}
 			traits  = {
 				veteran_minister
-				mewman_traditionalist
+				#mewman_traditionalist
 			}
 		}
 	}
@@ -108,7 +154,7 @@ characters={
 			}
 			traits  = {
 				editor
-				mewman_traditionalist
+				#mewman_traditionalist
 			}
 		}
 	}
@@ -137,7 +183,7 @@ characters={
 			}
 			traits  = {
 				war_industrialist
-				mewman_traditionalist
+				#mewman_traditionalist
 			}
 		}
 	}
@@ -154,19 +200,18 @@ characters={
 			idea_token = MEW_political_prog_char
 			available  = {
 				original_tag  = MEW
-				amount_taken_ideas = {
-					amount < 1
-					slots = {
-						political_advisor
-					}
-				}
 				NOT = {
-					has_completed_focus = MEW_advisor_affair
+					MEW_political_trad_char = {
+						is_political_advisor = yes
+					}
+					MEW_marco_diaz = {
+						is_political_advisor = yes
+					}
 				}
 			}
 			traits  = {
 				headstrong
-				mewman_progressive
+				#mewman_progressive
 			}
 		}
 	}
@@ -195,7 +240,7 @@ characters={
 			}
 			traits  = {
 				technocrat
-				mewman_progressive
+				#mewman_progressive
 			}
 		}
 	}
@@ -224,7 +269,7 @@ characters={
 			}
 			traits  = {
 				captain_of_industry
-				mewman_progressive
+				#mewman_progressive
 			}
 		}
 	}
@@ -243,13 +288,10 @@ characters={
 			idea_token = MEW_army_chief_prog_char
 			available  = {
 				original_tag  = MEW
-				NOT = {
-					has_completed_focus = MEW_army_affair
-				}
 			}
 			traits  = {
 				army_chief_drill_2
-				mewman_progressive
+				#mewman_progressive
 			}
 		}
 	}
@@ -266,13 +308,10 @@ characters={
 			idea_token = MEW_army_chief_trad_char
 			available  = {
 				original_tag  = MEW
-				NOT = {
-					has_completed_focus = MEW_army_affair
-				}
 			}
 			traits  = {
 				army_chief_organizational_2
-				mewman_traditionalist
+				#mewman_traditionalist
 			}
 		}
 	}
@@ -281,7 +320,8 @@ characters={
 		name=MEW_higgs
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
+				small="GFX_idea_higgs_advisor"
+				large ="GFX_portrait_higgs"
 			}
 		}
 		advisor={
@@ -289,13 +329,10 @@ characters={
 			idea_token = MEW_higgs
 			available  = {
 				original_tag  = MEW
-				NOT = {
-					has_completed_focus = MEW_army_affair
-				}
 			}
 			traits  = {
 				squire
-				mewman_moderate
+				#mewman_moderate
 			}
 		}
 	}

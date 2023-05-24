@@ -12,15 +12,15 @@ ideas = {
 				stability_weekly = -0.01
 			}
 		}
-		not_country = {
+		CLE_not_country_idea = {
 			picture = generic_research_bonus
 			
-			allowed = { always = yes }
+			allowed = { original_tag = CLE }
 			available = {}
 			cancel = {}
 			
 			modifier = {
-				surrender_limit = 1
+				surrender_limit = 0.70
 			}
 		}
 

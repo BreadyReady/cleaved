@@ -1,4 +1,4 @@
 ﻿capital = 1
-ideas = {
-	not_country
+add_ideas = {
+	CLE_not_country_idea
 }

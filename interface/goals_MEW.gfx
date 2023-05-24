@@ -1,0 +1,56 @@
+spriteTypes = {	
+
+	####
+	# Mewni Focus
+	####
+	
+	SpriteType = {
+	name = "GFX_goal_focus_broken_wand"
+	texturefile = "gfx/interface/goals/MEW/focus_broken_wand.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_mewman_royals"
+	texturefile = "gfx/interface/goals/MEW/focus_mewman_royals.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_sad_peasants"
+	texturefile = "gfx/interface/goals/MEW/focus_sad_peasants.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_moon_paperwork"
+	texturefile = "gfx/interface/goals/MEW/focus_moon_paperwork.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_mewman_knights"
+	texturefile = "gfx/interface/goals/MEW/focus_mewman_knights.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_overturned_car"
+	texturefile = "gfx/interface/goals/MEW/focus_overturned_car.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_two_professionals"
+	texturefile = "gfx/interface/goals/MEW/focus_two_professionals.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_mewmans_take_shelter"
+	texturefile = "gfx/interface/goals/MEW/focus_mewmans_take_shelter.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_general_construction_crane"
+	texturefile = "gfx/interface/goals/MEW/focus_general_construction_crane.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_shifty_mina"
+	texturefile = "gfx/interface/goals/MEW/focus_shifty_mina.dds"			
+	}
+} ### End Bracket

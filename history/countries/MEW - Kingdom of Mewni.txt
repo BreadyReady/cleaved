@@ -35,6 +35,7 @@ add_ideas = {
 
 recruit_character = MEW_eclipsa_butterfly
 recruit_character = MEW_moon_butterfly
+recruit_character = MEW_trad_council
 #ADVISORS
 recruit_character = MEW_marco_diaz
 recruit_character = MEW_political_trad_char

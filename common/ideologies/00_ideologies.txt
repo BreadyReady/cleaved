@@ -128,6 +128,9 @@ ideologies = {
 
 		types = {
 
+			loverrianism = {
+			}
+
 			nazism = {
 			}
 
@@ -152,7 +155,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 
-		color = { 150 75 0 }
+		color = { 30 30 30 }
 
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -254,7 +257,13 @@ ideologies = {
 			mewman_traditionalism  = {
 			}
 
+			provisional_government_prog = {}
+
 			mewman_regency = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
+
+			mewman_triumvairate = {
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
@@ -268,7 +277,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 124 124 124 }
+		color = { 167 113 177 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger

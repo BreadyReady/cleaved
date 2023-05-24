@@ -8,6 +8,21 @@ USA = {
 	color_ui = rgb { 67  123  237 }
 }
 
+CAL={
+	color = rgb { 255  221  71 }
+	color_ui = rgb { 255  221  71 }
+}
+
+MST={
+	color = rgb { 21 111 10 }
+	color_ui = rgb { 21 111 10 }
+}
+
+SPT={
+	color = rgb { 79  30  110 }
+	color_ui = rgb { 79  30  110 }
+}
+
 CAN = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 233  59  59 }
@@ -41,6 +56,11 @@ KGT = {
 VSL = {
 	color = rgb { 73 93 229 }
 	color_ui = rgb { 73 93 229 }
+}
+
+MIN = {
+	color = rgb { 167 113 177 }
+	color_ui = rgb { 167 113 177 }
 }
 
 JOH = {

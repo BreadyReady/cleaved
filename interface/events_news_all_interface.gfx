@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_news_event_cleaving_find_better"
+		texturefile = "gfx/event_news_pictures/all/news_event_cleaving_find_better.dds"
+	}
+	
+}

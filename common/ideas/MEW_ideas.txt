@@ -189,6 +189,64 @@ ideas = {
 				stability_factor = 0.1
 			}
 		}
+		MEW_civil_war_extremism = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MEW
+				
+			}
+			available = {}
+			cancel = {
+				has_civil_war = no
+			}
+			on_remove = {
+				add_popularity = {
+					ideology = mewman_monarchy
+					popularity = -0.1
+				}
+			}
+			
+			modifier = {	
+				war_support_weekly = 0.01
+			}
+		}
+		MEW_civil_war_chivalry = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MEW
+				
+			}
+			available = {}
+			cancel = {
+				has_civil_war = no
+			}
+			
+			modifier = {	
+				special_forces_attack_factor = 0.25
+				special_forces_defence_factor = 0.25
+			}
+		}
+		MEW_civil_war_mass_chivalry = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MEW
+				
+			}
+			available = {}
+			cancel = {
+				has_civil_war = no
+			}
+			
+			modifier = {	
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_speed_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
 
 	}
 	
