@@ -83,6 +83,11 @@ country_event = {
 			MEW = {
 				
 				country_event = { id = MEW_event.0 days = 1 }
+				
+				news_event = {
+					id = cleaving_news.0
+					days = 1
+				}
 			
 				transfer_state = 219
 				transfer_state = 220
@@ -414,13 +419,6 @@ country_event = {
 			
 			MEX = {
 				remove_state_core = 218
-			}
-			
-			every_country = {
-				news_event = {
-					id = cleaving_news.0
-					days = 1
-				}
 			}
 
 			set_victory_points = {

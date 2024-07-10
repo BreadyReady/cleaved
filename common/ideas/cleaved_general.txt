@@ -20,7 +20,7 @@ ideas = {
 			cancel = {}
 			
 			modifier = {
-				surrender_limit = 0.70
+				surrender_limit = 0.50
 			}
 		}
 

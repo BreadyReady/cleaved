@@ -81,7 +81,7 @@
  MEW_preserve_knight_desc:0 "Although we are to reform the command structure, we should preserve the distinctly Mewman Knight Culture in the army. (Rewrite)"
  
  MEW_personal_battalions:0 "Personal Battalions"
- MEW_personal_battalions_desc:0 ""
+ MEW_personal_battalions_desc:0 "Some of our knights are very famous figures, and we could recruit people into battalions centered around the knights."
  
  MEW_empower_knights_focus:0 "Empower Knights"
  MEW_empower_knights_focus_desc:0 ""
@@ -149,3 +149,56 @@
  MEW_mil_buildup_4:0 "Military Buildup IV"
  MEW_mil_buildup_4_desc:0 ""
  
+ MEW_civil_war:0 "The Mewman Civil War"
+ MEW_civil_war_desc:0 ""
+ 
+ MEW_rally_the_knights:0 "Rally the Knights"
+ MEW_rally_the_knights_desc:0 "Due to our steadfast loyalty to the knighthood, we can now call upon them in our time of need. Mobilizing the knights will grant us elite warriors to fight in this war."
+ 
+ MEW_mouthpieces_of_leadername:0 "Mouthpieces of [root.GetLeader]"
+ MEW_mouthpieces_of_leadername_desc:0 "The knighthood is seen as a noble force among the Mewman populace. The propaganda value of these knights are great, and getting memorable quotes putting [root.GetLeader] in a good light will greatly boost morale."
+ 
+ MEW_mewman_chivalry:0 "Reignite Mewman Chivalry"
+ MEW_mewman_chivalry_desc:0 "It has been many years sicne the knighthood has legitimately faced warfare, and many practical habits have been forgotten in favor of theatrical performance. By recovering lost practices, we can regain the elite warriors of yore that were lost long ago."
+ 
+ MEW_mass_mewman_chivalry:0 "Mass Chivalry"
+ MEW_mass_mewman_chivalry_desc:0 "A bold new strategy: disseminating the knighthood's performance boosting practices among the new mass army. While this will improve general performance, it will be less than the knights, and the knights will have to spend time teaching it to the masses."
+ 
+ MEW_mass_propaganda:0 "Mass Propaganda"
+ MEW_mass_propaganda_desc:0 "We can use many diffrent methods to lower dissent among the populace. Posters, pamphlets, TV, social media, etc."
+ 
+ MEW_expand_draft:0 "Expand Draft"
+ MEW_expand_draft_desc:0 "Due to our succsesful reforms of the military, we can now scale our operations up many times over. Expanding the draft will grant us more bodies to use in this war."
+ 
+ MEW_nationalize_guilds:0 "Nationalize Guilds"
+ MEW_nationalize_guilds_desc:0 "In this time of national strife, we must sieze what is necessary to survive. The workshop guilds is an example, and directing their production towards weaponry will help us in the war effort greatly"
+ 
+ MEW_fan_extremism:0 "Fan Extremism"
+ MEW_fan_extremism_desc:0 "TO WRITE"
+ 
+ MEW_queen_of_darkness:0 "Queen of Darkness"
+ MEW_queen_of_darkness_desc:0 "TO WRITE"
+ 
+ MEW_establish_regency:0 "Establish Regency"
+ MEW_establish_regency_desc:0 "TO WRITE"
+ 
+ MEW_stable_council:0 "Stable Council"
+ MEW_stable_council_desc:0 "TO WRITE"
+ 
+ MEW_royal_triumvarate:0 "Royal Triumvarate"
+ MEW_royal_triumvarate_desc:0 "TO WRITE"
+ 
+ MEW_the_undaunted:0 "The Undaunted"
+ MEW_the_undaunted_desc:0 "TO WRITE"
+ 
+ MEW_solidify_the_council:0 "Solidify the Council"
+ MEW_solidify_the_council_desc:0 "TO WRITE"
+ 
+ MEW_dukes_and_duchesses:0 "Dukes and Duchesses"
+ MEW_dukes_and_duchesses_desc:0 "TO WRITE"
+ 
+ MEW_mewman_parliament:0 "Mewman Senate"
+ MEW_mewman_parliament_desc:0 "TO WRITE"
+ 
+ MEW_end_the_early_cleaved_era:0 "End of the Early Cleaved Era"
+ MEW_end_the_early_cleaved_era_desc:0 "TO WRITE"

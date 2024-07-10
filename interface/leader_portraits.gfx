@@ -65,4 +65,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/OCE/portrait_OCE_ocean.dds"
 	}
 	
+	#MIN
+	
+	spriteType = {
+		name = "GFX_portrait_hoi4_portrait_mina"
+		texturefile = "gfx/leaders/MIN/hoi4_portrait_mina.dds"
+	}
+	
 }

@@ -41,10 +41,11 @@ on_actions = {
 					FROM = { tag = CLE }
 				}
 				hidden_effect = {
+					country_event = { id = flavor.3 days = 11 }
 					every_country = {
 						country_event = { id = cleaving.4 days = 6 }
 						country_event = { id = cleaving.5 days = 9 }
-						country_event = { id = cleaving.6 days = 12 }
+						country_event = { id = cleaving.6 days = 14 }
 					}
 				}
 			}

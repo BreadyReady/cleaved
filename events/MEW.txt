@@ -241,7 +241,7 @@ country_event = { #Stump day
 }
 
 country_event = {
-	id = MEW_minor_revolt.1
+	id = MEW_minor_revolt.1 #Make this hidden and give a news event to give a heads up
 	title = MEW_minor_revolt.1.t
 	desc = MEW_minor_revolt.1.desc
 	picture = GFX_report_event_empty_event
@@ -253,9 +253,16 @@ country_event = {
 		ai_chance = { factor = 60 }	# 60% AI choose this
 		KGT = {
 			transfer_state = 5
-			declare_war_on = {
-				target = MEW
-				type = civil_war
+			every_other_country = {
+				limit = {
+					original_tag = MEW
+				}
+				PREV = {
+					declare_war_on = {
+						target = PREV
+						type = annex_everything
+					}
+				}
 			}
 			load_oob = MEW_knight_personal
 		}
@@ -263,8 +270,8 @@ country_event = {
 	
 }
 
-country_event = {
-	id = MEW_minor_revolt.2
+country_event = { 
+	id = MEW_minor_revolt.2 #Make this hidden and give a news event to give a heads up
 	title = MEW_minor_revolt.2.t
 	desc = MEW_minor_revolt.2.desc
 	picture = GFX_report_event_empty_event
@@ -276,9 +283,16 @@ country_event = {
 		ai_chance = { factor = 60 }	# 60% AI choose this
 		VSL = {
 			transfer_state = 219
-			declare_war_on = {
-				target = MEW
-				type = civil_war
+			every_other_country = {
+				limit = {
+					original_tag = MEW
+				}
+				PREV = {
+					declare_war_on = {
+						target = PREV
+						type = annex_everything
+					}
+				}
 			}
 			load_oob = MEW_vassal_revolt
 		}
@@ -286,8 +300,38 @@ country_event = {
 	
 }
 
+country_event = { #democratic revolt
+	id = MEW_minor_revolt.5 #Make this hidden and give a news event to give a heads up
+	title = MEW_minor_revolt.5.t
+	desc = MEW_minor_revolt.5.desc
+	picture = GFX_report_event_empty_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_minor_revolt.5.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		MDM = {
+			transfer_state = 2
+			every_other_country = {
+				limit = {
+					original_tag = MEW
+				}
+				PREV = {
+					declare_war_on = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+			load_oob = MEW_democracy_oob
+		}
+	}
+	
+}
+
 country_event = {
-	id = MEW_minor_revolt.3 #Knights
+	id = MEW_minor_revolt.3 #Knights (IDK if this event is necessary)
 	title = MEW_minor_revolt.3.t
 	desc = MEW_minor_revolt.3.desc
 	picture = GFX_report_event_empty_event
@@ -308,7 +352,7 @@ country_event = {
 }
 
 country_event = {
-	id = MEW_minor_revolt.4 #Royals
+	id = MEW_minor_revolt.4 #Royals (IDK if this event is necessary)
 	title = MEW_minor_revolt.4.t
 	desc = MEW_minor_revolt.4.desc
 	picture = GFX_report_event_empty_event
@@ -628,8 +672,9 @@ country_event = { #peasant Affair
 			value = 1
 			tooltip = mew_prog_tooltip
 		}
-		add_war_support = 0.05
-		add_stability = -0.05
+		add_stability = -0.02
+		custom_effect_tooltip = MEW_event.6.a_tooltip
+		set_global_flag = MEW_mewni_allows_democracy
 	}
 	
 	option = {
@@ -640,9 +685,8 @@ country_event = { #peasant Affair
 			value = 1
 			tooltip = mew_trad_tooltip
 		}
-		add_war_support = -0.05
 		add_stability = 0.05
-		
+		custom_effect_tooltip = MEW_event.6.b_tooltip
 	}
 	
 	option = {
@@ -653,8 +697,8 @@ country_event = { #peasant Affair
 			value = 1
 			tooltip = mew_neut_tooltip
 		}
-		add_war_support = -0.025
-		add_stability = -0.025
+		add_stability = -0.05
+		custom_effect_tooltip = MEW_event.6.c_tooltip
 	}
 	
 }
@@ -1027,6 +1071,12 @@ country_event = {
 				country_event = { id = MEW_minor_revolt.2 days = 28 }
 			}
 		}
+		IF = {
+			limit = { NOT = { has_global_flag = MEW_mewni_allows_democracy } }
+			hidden_effect = {
+				country_event = { id = MEW_minor_revolt.5 days = 48 }
+			}
+		}
 	}
 	
 	option = {
@@ -1122,6 +1172,12 @@ country_event = {
 				country_event = { id = MEW_minor_revolt.2 days = 28 }
 			}
 		}
+		IF = {
+			limit = { NOT = { has_global_flag = MEW_mewni_allows_democracy } }
+			hidden_effect = {
+				country_event = { id = MEW_minor_revolt.5 days = 48 }
+			}
+		}
 	}
 }
 
@@ -1130,9 +1186,11 @@ country_event = {
 	title = MEW_civil_war.1.t
 	desc = MEW_civil_war.1.desc
 	picture = GFX_report_event_empty_event
-	
 	trigger = {
 		has_character = MEW_marco_diaz
+		MEW_marco_diaz = {
+			is_hired_as_advisor = yes			
+		}
 		has_civil_war = yes
 		NOT = {
 			has_global_flag = marco_considers_fleeing
@@ -1146,11 +1204,11 @@ country_event = {
 	option = {
 		name = MEW_civil_war.1.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
+		retire_character = MEW_marco_diaz
 	}
 	option = {
 		name = MEW_civil_war.1.b
 		ai_chance = { factor = 60 }	# 60% AI choose this
-		retire_character = MEW_marco_diaz
 	}
 }
 
@@ -1227,7 +1285,6 @@ country_event = {
 		recruit_character = MEW_mina_loveberry
 		add_advisor_role = {
 			character = MEW_mina_loveberry
-			activate = yes
 			advisor = {
 				slot = political_advisor
 				cost = 50
@@ -1276,6 +1333,11 @@ country_event = {
 				change_tag_from = PREV
 			}
 		}
+		hidden_effect = {
+			MIN = {
+				country_event = MEW_mina.3
+			}
+		}
 	}
 	option = {#Mina revolts, dont play as her
 		name = MEW_mina.2.b
@@ -1291,10 +1353,50 @@ country_event = {
 				}
 			}
 		}
+		hidden_effect = {
+			MIN = {
+				country_event = MEW_mina.3
+			}
+		}
 	}
 	option = {#Mina doesnt revolt
 		name = MEW_mina.2.c
 		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+
+
+country_event = {
+	id = MEW_mina.3 #make mina a leader
+	title = MEW_mina.3.t
+	desc = MEW_mina.3.desc
+	picture = GFX_report_event_empty_event
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = MEW_mina.3.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		recruit_character = MEW_mina_loveberry
+		add_country_leader_role = {
+			character = MEW_mina_loveberry
+			promote_leader = yes
+			country_leader = {
+				ideology = loverrianism
+				expire = "2040.1.1.1"
+				traits = { last_solarian }
+			}
+		}
+		add_corps_commander_role = {
+			Character = MEW_mina_loveberry
+			skill = 3
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 5
+		}
 	}
 }
 
@@ -1329,7 +1431,7 @@ country_event = {
 	}
 }
 
-country_event = { # Coup
+country_event = { # Coup (note: must make this only trigger after the war)
 	id = MEW_eclipsa_death.2
 	title = MEW_eclipsa_death.2.t
 	desc = MEW_eclipsa_death.2.desc
@@ -1341,7 +1443,7 @@ country_event = { # Coup
 		name = MEW_eclipsa_death.2.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
 		add_stability = 0.05
-		set_country_flag = end_early_cleaved_era_flag
+		set_global_flag = end_early_cleaved_era_flag
 	}
 	option = {
 		name = MEW_eclipsa_death.2.b
@@ -1349,7 +1451,7 @@ country_event = { # Coup
 		retire_character = MEW_royal_regent_council
 		recruit_character = MEW_prog_council
 		add_stability = -0.1
-		set_country_flag = end_early_cleaved_era_flag
+		set_global_flag = end_early_cleaved_era_flag
 	}
 	option = {
 		name = MEW_eclipsa_death.2.c
@@ -1383,7 +1485,7 @@ country_event = {
 	option = {
 		name = marco_event.1.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
-		set_country_flag = end_early_cleaved_era_flag
+		set_global_flag = end_early_cleaved_era_flag
 	}
 	
 	option = {
@@ -1415,7 +1517,7 @@ country_event = {
 			 ideology = provisional_government_prog
 			 trait = elected_monarchist_puppet
 		}
-		set_country_flag = end_early_cleaved_era_flag
+		set_global_flag = end_early_cleaved_era_flag
 	}
 }
 
@@ -1430,7 +1532,7 @@ country_event = {
 	option = {
 		name = MEW_civil_war.3.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
-		set_country_flag = end_early_cleaved_era_flag
+		set_global_flag = end_early_cleaved_era_flag
 		add_stability = 0.05
 	}
 	option = {

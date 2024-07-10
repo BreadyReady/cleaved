@@ -14,6 +14,10 @@ state={
         }
 		victory_points = { 2559 30 }
 	}
+	resources = {
+		steel = 10
+		oil = 8
+	}
 	manpower=3140000
 	buildings_max_level_factor=1.000
  	state_category=megalopolis

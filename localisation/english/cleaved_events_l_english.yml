@@ -1,15 +1,10 @@
 ﻿l_english:
 
-cleaving_news.0.t:0 "Unexpected Disaster Hits the US!"
-cleaving_news.0.t.a:0 "A Big Change in Magic and the Landscape!"
-cleaving_news.0.t.b:0 "Unexpected Disaster Hits the West!"
-cleaving_news.0.desc.a:0 "A great change has stricken Mewni! 1: Locations of places have shifted completely, much of the Kingdom is diconnected! 2: Almost all of magic has stopped working, the Magic High Commision just disintegrated to dust! and 3: A large part of the Kingdom seems to have 'merged' with another, unknown, civilization. And Butterfly Castle itself has been merged with them!\n\nNot all is bad, though. Mina Loveberry's magic has also ceased, stopping the coup what was occuring just hours before. The magic needed for magic creatures and Kingdoms to exist and keep in contact still works. Finally, the civilization merged with us is comprised of people like us. That is to say, not Monsters"
-cleaving_news.0.desc.b:0 "Communications from Los Angeles to Southern Oregon are reporting a catastrophic event occurring around 10 pm PST on May 19th. Said event is not fully understood at the current time, but the Government of Oregon has released a statement saying that the event will be treated like a natural disaster. The Government of California, the state which seems most affected, has not yet released an official statement. In addition, the status of it's Governor is unknown.\n\nEffects of the event include earthquakes, wildfires, the ‘merging’ of objects, alterations in the landscape and geography, and most strange of all: a rise in the sightings of cryptids. Casualties are confirmed. Travel is not advised."
-cleaving_news.0.desc:0 "Communications from the American west coast are reporting a catastrophic event occurring around 10 pm PST on May 19th. Said event is not fully understood at the current time, but Government officials have released a statement saying that the event will be treated like a natural disaster. The status of the Governor of California is unknown.\n\nEffects of the event include earthquakes, wildfires, the ‘merging’ of objects, alterations in the landscape and geography, and most strange of all: a rise in the sightings of cryptids. Casualties are confirmed. Travel is not advised."
-cleaving_news.0.a:0 "What the corn just happened?"
-cleaving_news.0.b:0 "We must get to work! Never another Katrina!"
-cleaving_news.0.c:0 "How Terrible! Thoughts and Prayers..."
-
 welcome.0.t:0 "Welcome!"
 welcome.0.desc:0 "Welcome to Cleaved: A Hearts of Iron Mod!"
 welcome.0.a:0 "Thanks"
+
+cleaving.4.t:0 "Sacramento Administion switch"
+cleaving.4.desc:0 "Would you like to swap to the Sacramento Administration?"
+cleaving.4.a:0 "No"
+cleaving.4.b:0 "Yes"

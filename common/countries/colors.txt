@@ -63,6 +63,11 @@ MIN = {
 	color_ui = rgb { 167 113 177 }
 }
 
+MDM = {
+	color = rgb { 0 1 146 }
+	color_ui = rgb { 0 1 146 }
+}
+
 JOH = {
 	color = rgb { 140 255 255 }
 	color_ui = rgb { 140 255 255 }

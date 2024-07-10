@@ -61,6 +61,9 @@ characters={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_1"
 			}
+			civilian = {
+				large = GFX_portrait_hoi4_portrait_mina
+			}
 		}
 		advisor={
 			slot = political_advisor

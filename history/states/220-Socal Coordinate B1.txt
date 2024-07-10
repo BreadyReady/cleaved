@@ -9,6 +9,11 @@ state={
 		owner = OCE
 		add_core_of = OCE
 	}
+	resources = {
+		steel = 10
+		aluminium = 8
+		oil = 40
+	}
 	buildings_max_level_factor=1.000
  	state_category=large_town
 	local_supplies=0.000

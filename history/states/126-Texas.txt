@@ -8,7 +8,14 @@ state={
 		owner = USA
 		add_core_of = USA
 	}
-	manpower=1
+	resources = {
+		steel = 30
+		aluminium = 20
+		oil = 20
+		tungsten = 20
+		chromium = 8
+	}
+	manpower=100000
 	buildings_max_level_factor=1.000
  	state_category=town
 	local_supplies=0.000

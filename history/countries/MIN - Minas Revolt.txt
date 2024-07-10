@@ -11,9 +11,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	tot_economic_mobilisation
-	closed_economy
-	service_by_requirement
-	#
-	MEW_squire_process
+	MEW_feudalism
+	MEW_mercantalism
+	MEW_feudal_levy
 }

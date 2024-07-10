@@ -47,17 +47,21 @@
  MIN_DEF:0 "The Clique"
  MIN_ADJ:0 "Loveberrian"
  
+ MDM:0 "LA Republic"
+ MDM_DEF:0 "The LA Republic"
+ MDM_ADJ:0 "The LA Republican"
+ 
  JOH:0 "Johansen Kingdom"
  JOH_DEF:0 "The Johansen Kingdom"
  JOH_ADJ:0 "Mewman"
  
  PIG:0 "Pigeon Kingdom"
  PIG_DEF:0 "Pigeon"
- PIG_ADJ:0 "Pigeon"
+ PIG_ADJ:0 "The Pigeons"
  
  SPI:0 "Spiderbite Kingdom"
  SPI_DEF:0 "Arachnid"
- SPI_ADJ:0 "Arachnid"
+ SPI_ADJ:0 "The Arachnids"
  
  TRT:0 "Tarantula Garrison"
  TRT_DEF:0 "Tarantula"

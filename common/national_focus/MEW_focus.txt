@@ -117,11 +117,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 25
-			add_to_variable = {
-				var = eclipsa_cold
-				value = 1
-				tooltip = eclipsa_coldness_tooltip
-			}
 		}
 		
 		ai_will_do = {
@@ -293,7 +288,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_protect_sovereignty
-		icon = a
+		icon = GFX_goal_focus_butterfly_castle
 		x = 3
 		y = 1
 				
@@ -322,7 +317,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_traitors_purge
-		icon = a
+		icon = GFX_goal_focus_manfred_scream
 		x = -1
 		y = 1
 				
@@ -339,11 +334,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 25
-			add_to_variable = {
-				var = eclipsa_cold
-				value = 1
-				tooltip = eclipsa_coldness_tooltip
-			}
 		}
 		
 		ai_will_do = {
@@ -355,7 +345,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_traitors_mercy
-		icon = a
+		icon = GFX_goal_focus_manfred_smile
 		x = -3
 		y = 1
 				
@@ -412,7 +402,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_rise_of_the_parties
-		icon = a
+		icon = GFX_goal_focus_bunch_of_mewmans
 		x = 14
 		y = 3
 				
@@ -437,7 +427,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_army_affair
-		icon = a
+		icon = GFX_goal_focus_mewman_knights
 		x = -2
 		y = 1
 				
@@ -531,7 +521,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_advisor_affair
-		icon = a
+		icon = GFX_goal_focus_mewman_royals
 		x = 0
 		y = 1
 				
@@ -625,7 +615,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_economic_affair
-		icon = a
+		icon = GFX_goal_focus_moon_paperwork
 		x = 2
 		y = 1
 				
@@ -689,7 +679,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_two_speeches
-		icon = a
+		icon = GFX_goal_focus_moon_eclipsa_table
 		x = -1
 		y = 2
 				
@@ -717,7 +707,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_peasant_affair
-		icon = a
+		icon = GFX_goal_focus_peasants_held_back
 		x = 1
 		y = 2
 				
@@ -773,7 +763,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_aggresive_expansion
-		icon = a
+		icon = GFX_goal_focus_mewman_knights
 		x = 0
 		y = 1
 				
@@ -811,7 +801,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_modernization
-		icon = a
+		icon = GFX_goal_focus_general_construction_crane
 		x = 24
 		y = 3
 				
@@ -840,7 +830,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_military_reform
-		icon = a
+		icon = GFX_goal_focus_mewman_knights
 		x = 4
 		y = 1
 		relative_position_id = MEW_modernization 
@@ -869,7 +859,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_standing_army
-		icon = a
+		icon = GFX_goal_focus_mewman_knights
 		x = 0
 		y = 2
 		relative_position_id = MEW_military_reform 
@@ -897,7 +887,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_modernizing_equipment
-		icon = a
+		icon = GFX_goal_focus_mewman_knights
 		x = 0
 		y = 1
 		relative_position_id = MEW_standing_army 
@@ -1166,7 +1156,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_preserve_knight
-		icon = a
+		icon = GFX_goal_focus_candle
 		x = 2
 		y = 1
 		relative_position_id = MEW_military_reform 
@@ -1204,7 +1194,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_personal_battalions
-		icon = a
+		icon = GFX_goal_focus_handsome_knight_stabby
 		x = 0
 		y = 1
 		relative_position_id = MEW_preserve_knight 
@@ -1233,7 +1223,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_empower_knights_focus
-		icon = a
+		icon = GFX_goal_focus_whosits
 		x = 0
 		y = 1
 		relative_position_id = MEW_personal_battalions 
@@ -1265,7 +1255,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_reforming_command
-		icon = a
+		icon = GFX_goal_focus_knight_looks_up
 		x = -2
 		y = 1
 		relative_position_id = MEW_military_reform 
@@ -1303,7 +1293,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_phase_out_squire
-		icon = a
+		icon = GFX_goal_focus_higgs_face_down
 		x = 0
 		y = 1
 		relative_position_id = MEW_reforming_command 
@@ -1335,7 +1325,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_abolish_knights
-		icon = a
+		icon = GFX_goal_focus_higgs_looks_at_paper
 		x = 0
 		y = 1
 		relative_position_id = MEW_phase_out_squire 
@@ -1369,7 +1359,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_economic_reform
-		icon = a
+		icon = GFX_goal_focus_general_construction_crane
 		x = -4
 		y = 1
 		relative_position_id = MEW_modernization 
@@ -1396,7 +1386,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_break_the_promise
-		icon = a
+		icon = GFX_goal_focus_mewman_royals
 		x = 0
 		y = 1
 		relative_position_id = MEW_economic_reform 
@@ -1421,6 +1411,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = MEW_break_the_promise_tooltip
 			custom_effect_tooltip = MEW_break_the_promise_tooltip_2
+			swap_ideas = {
+				remove_idea = MEW_feudalism 
+				add_idea = civilian_economy
+			}#this removal was added after I forgot how, or even if, there was another way to remove it. It that is found, remove this.
 		}
 		
 		ai_will_do = {
@@ -1432,7 +1426,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_domestic_tech
-		icon = a
+		icon = GFX_goal_focus_general_science
 		x = -1
 		y = 2
 		relative_position_id = MEW_economic_reform 
@@ -1466,7 +1460,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_domestic_tech_2
-		icon = a
+		icon = GFX_goal_focus_butterfly_castle
 		x = 0
 		y = 1
 		relative_position_id = MEW_domestic_tech 
@@ -1497,7 +1491,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_domestic_tech_3
-		icon = a
+		icon = GFX_goal_focus_butterfly_castle
 		x = 0
 		y = 1
 		relative_position_id = MEW_domestic_tech_2 
@@ -1528,7 +1522,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_domestic_tech_4
-		icon = a
+		icon = GFX_goal_focus_general_science
 		x = 0
 		y = 1
 		relative_position_id = MEW_domestic_tech_3 
@@ -1567,7 +1561,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_foreign_tech
-		icon = a
+		icon = GFX_goal_focus_UN
 		x = 1
 		y = 2
 		relative_position_id = MEW_economic_reform 
@@ -1601,7 +1595,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_foreign_tech_2
-		icon = a
+		icon = GFX_goal_focus_UN
 		x = 0
 		y = 1
 		relative_position_id = MEW_foreign_tech 
@@ -1634,7 +1628,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_foreign_tech_3
-		icon = a
+		icon = GFX_goal_focus_UN
 		x = 0
 		y = 1
 		relative_position_id = MEW_foreign_tech_2 
@@ -1667,7 +1661,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_foreign_tech_4
-		icon = a
+		icon = GFX_goal_focus_UN
 		x = 0
 		y = 1
 		relative_position_id = MEW_foreign_tech_3 
@@ -1983,7 +1977,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_mil_buildup
-		icon = a
+		icon = GFX_goal_focus_old_weapons
 		x = 3
 		y = 2
 		relative_position_id = MEW_economic_reform 
@@ -1991,10 +1985,7 @@ focus_tree = {
 		
 		bypass = {}
 		available = { 
-			OR = {
-				has_war = yes
-				threat > 0.5
-			}
+			threat > 0.5
 		}
 		cost = 3
 
@@ -2044,7 +2035,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_mil_buildup_2
-		icon = a
+		icon = GFX_goal_focus_old_weapons
 		x = 0
 		y = 1
 		relative_position_id = MEW_mil_buildup 
@@ -2100,7 +2091,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_mil_buildup_3
-		icon = a
+		icon = GFX_goal_focus_old_weapons
 		x = 0
 		y = 1
 		relative_position_id = MEW_mil_buildup_2 
@@ -2156,7 +2147,7 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_mil_buildup_4
-		icon = a
+		icon = GFX_goal_focus_old_weapons
 		x = 0
 		y = 1
 		relative_position_id = MEW_mil_buildup_3
@@ -2211,36 +2202,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MEW_revitalize_pacific_trade
-		icon = a
-		x = 0
-		y = 1
-		relative_position_id = MEW_domestic_tech_4
-		prerequisite = { focus = MEW_civ_buildup_4 }
-		prerequisite = { focus = MEW_domestic_tech_4 focus = MEW_foreign_tech_4 }
-		
-		bypass = {}
-		available = { 
-			has_completed_focus = MEW_end_the_early_cleaved_era
-		}
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-	}
-
-	focus = {
 		id = MEW_stage_is_set
-		icon = a
+		icon = GFX_goal_focus_butterfly_castle
 		x = 14
 		y = 8
 		
@@ -2278,12 +2241,12 @@ focus_tree = {
 	
 	focus = {
 		id = MEW_civil_war
-		icon = a
+		icon = GFX_goal_focus_burning_building
 		x = 40
 		y = 5
 		
 		bypass = {}
-		available = { always = no }
+		available = { has_civil_war = yes }
 		cost = 1
 
 		cancel_if_invalid = yes
@@ -2301,7 +2264,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_rally_the_knights
-		icon = a
+		icon = GFX_goal_focus_mewman_knights
 		x = 5
 		y = 1
 		prerequisite = { focus = MEW_civil_war }
@@ -2333,7 +2296,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_mouthpieces_of_leadername
-		icon = a
+		icon = GFX_goal_focus_handsome_knight_stabby
 		x = 1
 		y = 1
 		prerequisite = { focus = MEW_rally_the_knights }
@@ -2368,7 +2331,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_mewman_chivalry
-		icon = a
+		icon = GFX_goal_focus_whosits
 		x = -1
 		y = 1
 		prerequisite = { focus = MEW_rally_the_knights }
@@ -2400,7 +2363,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_mass_mewman_chivalry
-		icon = a
+		icon = GFX_goal_focus_peasants_happy
 		x = -1
 		y = 1
 		prerequisite = { focus = MEW_mewman_chivalry }
@@ -2433,10 +2396,152 @@ focus_tree = {
 			#modifier = {}
 		}
 	}
+	
+
+
+	focus = {
+		id = MEW_smashing_kingdoms
+		icon = GFX_goal_focus_flaming_fist
+		x = 10
+		y = 1
+		prerequisite = { focus = MEW_civil_war }
+		relative_position_id = MEW_civil_war
+		
+		bypass = {}
+		available = {
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = MEW_smash_johansen
+		icon = GFX_goal_focus_flaming_fist
+		x = 0
+		y = 1
+		prerequisite = { focus = MEW_smashing_kingdoms }
+		relative_position_id = MEW_smashing_kingdoms
+		
+		bypass = {
+		}
+		available = {
+			JOH = {
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+				exists = yes
+			}
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = JOH
+		
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = JOH
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = MEW_smash_pigeon
+		icon = GFX_goal_focus_flaming_fist
+		x = -2
+		y = 1
+		prerequisite = { focus = MEW_smashing_kingdoms }
+		relative_position_id = MEW_smashing_kingdoms
+		
+		bypass = {
+		}
+		available = {
+			PIG = {
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+				exists = yes
+			}
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = PIG
+		
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = PIG
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = MEW_smash_spiderbite
+		icon = GFX_goal_focus_flaming_fist
+		x = 2
+		y = 1
+		prerequisite = { focus = MEW_smashing_kingdoms }
+		relative_position_id = MEW_smashing_kingdoms
+		
+		bypass = {
+		}
+		available = {
+			SPI = {
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+				exists = yes
+			}
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = SPI
+		
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SPI
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
 
 	focus = {
 		id = MEW_courting_kingdoms
-		icon = a
+		icon = GFX_goal_focus_handshake
 		x = -6
 		y = 1
 		prerequisite = { focus = MEW_civil_war }
@@ -2444,7 +2549,6 @@ focus_tree = {
 		
 		bypass = {}
 		available = {
-			has_civil_war = yes
 		}
 		cost = 1
 
@@ -2489,17 +2593,12 @@ focus_tree = {
 
 	focus = {
 		id = MEW_court_johansen
-		icon = a
+		icon = GFX_goal_focus_handshake
 		x = 0
 		y = 1
 		prerequisite = { focus = MEW_courting_kingdoms }
 		relative_position_id = MEW_courting_kingdoms
 		
-		bypass = {
-			JOH = {
-				exists = no
-			}
-		}
 		available = {
 			JOH = {
 				is_in_faction = no
@@ -2507,6 +2606,10 @@ focus_tree = {
 					target = PREV
 					value > 50
 				}
+				NOT = {
+					has_war_with = ROOT
+				}
+				exists = yes
 			}
 		}
 		cost = 1
@@ -2527,7 +2630,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_court_pigeon
-		icon = a
+		icon = GFX_goal_focus_handshake
 		x = 2
 		y = 1
 		prerequisite = { focus = MEW_courting_kingdoms }
@@ -2545,6 +2648,10 @@ focus_tree = {
 					target = PREV
 					value > 50
 				}
+				NOT = {
+					has_war_with = ROOT
+				}
+				exists = yes
 			}
 		}
 		cost = 1
@@ -2564,66 +2671,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MEW_court_lucitor
-		icon = a
-		x = 1
-		y = 2
-		prerequisite = { focus = MEW_courting_kingdoms }
-		relative_position_id = MEW_courting_kingdoms
-		
-		bypass = {}
-		available = {
-			has_civil_war = yes
-			#add tomco check
-		}
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#add_oob
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-	}
-
-	focus = {
-		id = MEW_court_ponyheads
-		icon = a
-		x = -1
-		y = 2
-		prerequisite = { focus = MEW_courting_kingdoms }
-		relative_position_id = MEW_courting_kingdoms
-		
-		bypass = {}
-		available = {
-			has_civil_war = yes
-			#add flavor check
-		}
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#add_oob
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-	}
-
-	focus = {
 		id = MEW_court_spiderbite
-		icon = a
+		icon = GFX_goal_focus_handshake
 		x = -2
 		y = 1
 		prerequisite = { focus = MEW_courting_kingdoms }
@@ -2641,6 +2690,10 @@ focus_tree = {
 					target = PREV
 					value > 50
 				}
+				NOT = {
+					has_war_with = ROOT
+				}
+				exists = yes
 			}
 		}
 		cost = 1
@@ -2660,39 +2713,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MEW_end_civil_war
-		icon = a
-		x = 0
-		y = 3
-		prerequisite = { focus = MEW_court_johansen }
-		prerequisite = { focus = MEW_court_pigeon }
-		prerequisite = { focus = MEW_court_spiderbite }
-		prerequisite = { focus = MEW_court_ponyheads }
-		prerequisite = { focus = MEW_court_lucitor }
-		relative_position_id = MEW_courting_kingdoms
-		
-		bypass = {}
-		available = {
-			has_war = no
-		}
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-	}
-
-	focus = {
 		id = MEW_mass_propaganda
-		icon = a
+		icon = GFX_goal_focus_moon_poster
 		x = 0
 		y = 1
 		prerequisite = { focus = MEW_civil_war }
@@ -2720,7 +2742,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_expand_draft
-		icon = a
+		icon = GFX_goal_focus_higgs_looks_at_paper
 		x = 0
 		y = 1
 		prerequisite = { focus = MEW_mass_propaganda }
@@ -2751,7 +2773,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_nationalize_guilds
-		icon = a
+		icon = GFX_goal_focus_moon_paperwork
 		x = -2
 		y = 1
 		prerequisite = { focus = MEW_mass_propaganda }
@@ -2811,7 +2833,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_fan_extremism
-		icon = a
+		icon = GFX_goal_focus_peasants_held_back
 		x = 2
 		y = 1
 		prerequisite = { focus = MEW_mass_propaganda }
@@ -2839,7 +2861,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_queen_of_darkness
-		icon = a
+		icon = GFX_goal_focus_eclipsa_superior
 		x = 4
 		y = 6
 		
@@ -2870,7 +2892,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_establish_regency
-		icon = a
+		icon = GFX_goal_focus_eclipsa_dead
 		x = -2
 		y = 0
 		
@@ -2915,7 +2937,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_stable_council
-		icon = a
+		icon = GFX_goal_focus_mewman_royals_2
 		x = 1
 		y = 1
 		
@@ -2941,7 +2963,7 @@ focus_tree = {
 					traits = { }
 				}
 			}
-			set_country_flag = end_early_cleaved_era_flag
+			set_global_flag = end_early_cleaved_era_flag
 		}
 		
 		ai_will_do = {
@@ -2952,7 +2974,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_royal_triumvarate
-		icon = a
+		icon = GFX_goal_focus_star_and_tom
 		x = -1
 		y = 1
 		
@@ -2991,7 +3013,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_the_undaunted
-		icon = a
+		icon = GFX_goal_focus_moon_superior
 		x = 2
 		y = 0
 		
@@ -3023,7 +3045,7 @@ focus_tree = {
 				popularity = 0.1
 			}
 			add_stability = 0.1
-			set_country_flag = end_early_cleaved_era_flag
+			set_global_flag = end_early_cleaved_era_flag
 		}
 		
 		ai_will_do = {
@@ -3034,7 +3056,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_solidify_the_council
-		icon = a
+		icon = GFX_goal_focus_mewman_royals_2
 		x = 2
 		y = 0
 		
@@ -3073,7 +3095,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_dukes_and_duchesses
-		icon = a
+		icon = GFX_goal_focus_mewman_royals
 		x = -1
 		y = 1
 		
@@ -3091,7 +3113,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.1
-			set_country_flag = end_early_cleaved_era_flag
+			set_global_flag = end_early_cleaved_era_flag
 		}
 		
 		ai_will_do = {
@@ -3102,7 +3124,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_mewman_parliament
-		icon = a
+		icon = GFX_goal_focus_formation_of_senate
 		x = 1
 		y = 1
 		
@@ -3111,7 +3133,7 @@ focus_tree = {
 		mutually_exclusive = { focus = MEW_dukes_and_duchesses }
 		prerequisite = { focus = MEW_solidify_the_council }
 		available = {
-			#Democracy will have a potential revolt and this focus will not be avasilable if they have risen up
+			has_global_flag = MEW_mewni_allows_democracy
 		}
 		cost = 1
 
@@ -3134,7 +3156,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_end_the_early_cleaved_era
-		icon = a
+		icon = GFX_goal_focus_butterfly_castle
 		x = -1
 		y = 2
 		
@@ -3143,7 +3165,7 @@ focus_tree = {
 		prerequisite = { focus = MEW_the_undaunted focus = MEW_queen_of_darkness focus = MEW_stable_council focus = MEW_dukes_and_duchesses focus = MEW_royal_triumvarate focus = MEW_mewman_parliament }
 		available = {
 			has_war = no
-			has_country_flag = end_early_cleaved_era_flag
+			has_global_flag = end_early_cleaved_era_flag
 		}
 		cost = 1
 
@@ -3152,9 +3174,22 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			remove_ideas = MEW_recent_strife
 			add_popularity = {
 				ideology = democratic
 				popularity = 0.1
+			}
+			IF = {
+				limit = {
+					has_completed_focus = MEW_economic_reform
+				}
+				complete_national_focus = MEW_military_reform
+			}
+			IF = {
+				limit = {
+					has_completed_focus = MEW_military_reform
+				}
+				complete_national_focus = MEW_economic_reform
 			}
 		}
 		
@@ -3166,14 +3201,13 @@ focus_tree = {
 
 	focus = {
 		id = MEW_cooperate_with_cleaved_nations
-		icon = a
+		icon = GFX_goal_focus_handshake
 		x = -4
 		y = 1
 		
 		bypass = {}
 		relative_position_id = MEW_end_the_early_cleaved_era
 		prerequisite = { focus = MEW_end_the_early_cleaved_era }
-		mutually_exclusive = { focus = MEW_take_down_cleaved_nations }
 		available = {
 		}
 		cost = 1
@@ -3183,6 +3217,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			#Add positive opinion modifier for all cleaved nations, less than the negative
 		}
 		
 		ai_will_do = {
@@ -3193,26 +3228,24 @@ focus_tree = {
 
 	focus = {
 		id = MEW_faction_cal
-		icon = a
+		icon = GFX_goal_focus_handshake
 		x = -1
 		y = 1
 		
 		bypass = {
-			OR = {
-				CAL = {
-					is_in_faction = yes
-				}
-				NOT = {
-					country_exists = CAL
-				}
-				CAL = {
-					has_war_with = USA
-				}
-			}
 		}
 		relative_position_id = MEW_cooperate_with_cleaved_nations
 		prerequisite = { focus = MEW_cooperate_with_cleaved_nations }
 		available = {
+			CAL = {
+				NOT = {
+					is_in_faction_with = USA
+				}
+				NOT = {
+					has_war_with = USA
+				}
+				exists = yes
+			}
 		}
 		cost = 1
 
@@ -3232,26 +3265,24 @@ focus_tree = {
 
 	focus = {
 		id = MEW_faction_mst
-		icon = a
+		icon = GFX_goal_focus_handshake
 		x = 1
 		y = 1
 		
 		bypass = {
-			OR = {
-				MST = {
-					is_in_faction = yes
-				}
-				NOT = {
-					country_exists = MST
-				}
-				MST = {
-					has_war_with = USA
-				}
-			}
 		}
 		relative_position_id = MEW_cooperate_with_cleaved_nations
 		prerequisite = { focus = MEW_cooperate_with_cleaved_nations }
 		available = {
+			MST = {
+				NOT = {
+					is_in_faction_with = USA
+				}
+				NOT = {
+					has_war_with = USA
+				}
+				exists = yes
+			}
 		}
 		cost = 1
 
@@ -3271,26 +3302,24 @@ focus_tree = {
 
 	focus = {
 		id = MEW_faction_SPT
-		icon = a
+		icon = GFX_goal_focus_handshake
 		x = 0
 		y = 2
 		
 		bypass = {
-			OR = {
-				SPT = {
-					is_in_faction = yes
-				}
-				NOT = {
-					country_exists = SPT
-				}
-				SPT = {
-					has_war_with = USA
-				}
-			}
 		}
 		relative_position_id = MEW_cooperate_with_cleaved_nations
 		prerequisite = { focus = MEW_cooperate_with_cleaved_nations }
 		available = {
+			CAL = {
+				NOT = {
+					is_in_faction_with = USA
+				}
+				NOT = {
+					has_war_with = USA
+				}
+				exists = yes
+			}
 		}
 		cost = 1
 
@@ -3310,14 +3339,13 @@ focus_tree = {
 
 	focus = {
 		id = MEW_take_down_cleaved_nations
-		icon = a
+		icon = GFX_goal_focus_flaming_fist
 		x = 1
 		y = 1
 		
 		bypass = {}
 		relative_position_id = MEW_end_the_early_cleaved_era
 		prerequisite = { focus = MEW_end_the_early_cleaved_era }
-		mutually_exclusive = { focus = MEW_cooperate_with_cleaved_nations }
 		available = {
 		}
 		cost = 1
@@ -3327,6 +3355,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			#Add negative opinion modifier for all cleaved nations, more than the positive
 		}
 		
 		ai_will_do = {
@@ -3337,24 +3366,31 @@ focus_tree = {
 
 	focus = {
 		id = MEW_take_down_cal
-		icon = a
+		icon = GFX_goal_focus_flaming_fist
 		x = 0
 		y = 1
 		
 		bypass = {
-			OR = {
-				CAL = {
-					is_in_faction = yes
-				}
-				NOT = {
-					country_exists = CAL
-				}
-			}
 		}
 		relative_position_id = MEW_take_down_cleaved_nations
 		prerequisite = { focus = MEW_take_down_cleaved_nations }
 		available = {
-			any_neighbor_country = { original_tag = CAL }
+			OR = {
+				any_neighbor_country = {
+					tag = CAL
+				}
+				any_allied_country = {
+					any_neighbor_country = {
+						tag = CAL
+					}
+				}
+			}
+			CAL = {
+				NOT = {
+					is_in_faction_with = USA
+				}
+				exists = yes
+			}
 		}
 		cost = 1
 
@@ -3368,6 +3404,7 @@ focus_tree = {
 				target = CAL
 			}
 		}
+		will_lead_to_war_with = CAL
 		
 		ai_will_do = {
 			factor = 400
@@ -3377,25 +3414,31 @@ focus_tree = {
 
 	focus = {
 		id = MEW_take_down_mst
-		icon = a
+		icon = GFX_goal_focus_flaming_fist
 		x = -2
 		y = 1
 		
 		bypass = {
-			OR = {
-				CAL = {
-					is_in_faction = yes
-				}
-				NOT = {
-					country_exists = CAL
-				}
-			
-			}
 		}
 		relative_position_id = MEW_take_down_cleaved_nations
 		prerequisite = { focus = MEW_take_down_cleaved_nations }
 		available = {
-			any_neighbor_country = { original_tag = MST }
+			OR = {
+				any_neighbor_country = {
+					tag = MST
+				}
+				any_allied_country = {
+					any_neighbor_country = {
+						tag = MST
+					}
+				}
+			}
+			MST = {
+				NOT = {
+					is_in_faction_with = USA
+				}
+				exists = yes
+			}
 		}
 		cost = 1
 
@@ -3418,25 +3461,31 @@ focus_tree = {
 
 	focus = {
 		id = MEW_take_down_spt
-		icon = a
+		icon = GFX_goal_focus_flaming_fist
 		x = 2
 		y = 1
 		
 		bypass = {
-			OR = {
-				CAL = {
-					is_in_faction = yes
-				}
-				NOT = {
-					country_exists = CAL
-				}
-			
-			}
 		}
 		relative_position_id = MEW_take_down_cleaved_nations
 		prerequisite = { focus = MEW_take_down_cleaved_nations }
 		available = {
-			any_neighbor_country = { original_tag = spt }
+			OR = {
+				any_neighbor_country = {
+					tag = SPT
+				}
+				any_allied_country = {
+					any_neighbor_country = {
+						tag = SPT
+					}
+				}
+			}
+			SPT = {
+				NOT = {
+					is_in_faction_with = USA
+				}
+				exists = yes
+			}
 		}
 		cost = 1
 
