@@ -6,8 +6,8 @@ state={
 	}
 	manpower=50000
 	history = {
-		owner = OCE
-		add_core_of = OCE
+		owner = SPI
+		add_core_of = SPI
 	}
 	resources = {
 		steel = 20

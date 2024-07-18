@@ -5,9 +5,8 @@ state={
 		1147 1348 1712 1860 2019 2088 2386 2398 2467 2553 3285 3296 3304 3314 3318 3326 3349 3365 3381 3391 3393 3397 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = MST
+		owner = AVA
+		add_core_of = AVA
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

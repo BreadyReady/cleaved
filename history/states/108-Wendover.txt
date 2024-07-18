@@ -5,9 +5,8 @@ state={
 		345 784 865 1021 1535 1665 1869 1895 2191 2291 2918 2924 2958 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = SPT
+		owner = PNY
+		add_core_of = PNY
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

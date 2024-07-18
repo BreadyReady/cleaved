@@ -13,6 +13,21 @@ CAL={
 	color_ui = rgb { 255  221  71 }
 }
 
+BAY={
+	color = rgb { 255  221  71 }
+	color_ui = rgb { 255  221  71 }
+}
+
+VAL={
+	color = rgb { 255  221  71 }
+	color_ui = rgb { 255  221  71 }
+}
+
+SOC={
+	color = rgb { 255  221  71 }
+	color_ui = rgb { 255  221  71 }
+}
+
 MST={
 	color = rgb { 21 111 10 }
 	color_ui = rgb { 21 111 10 }
@@ -127,3 +142,71 @@ RUS = {
 	color = rgb { 72 143 68 }
 	color_ui = rgb { 72 143 68 }
 }
+
+######-
+
+LAS = {
+	color = rgb { 240 58 182 }
+	color_ui = rgb { 240 58 182 }
+}
+
+NAV = {
+	color = rgb { 240 176 58 }
+	color_ui = rgb { 240 176 58 }
+}
+
+FRG = {
+	color = rgb { 21 111 10 }
+	color_ui = rgb { 21 111 10 }
+}
+
+AVA = {
+	color = rgb { 21 111 10 }
+	color_ui = rgb { 21 111 10 }
+}
+
+PTK = {
+	color = rgb { 21 111 10 }
+	color_ui = rgb { 21 111 10 }
+}
+
+STS = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+
+PNY = {
+	color = rgb { 99 239 255 }
+	color_ui = rgb { 99 239 255 }
+}
+
+CHL = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+NCH = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+NEV = {
+	color = rgb { 241 255 82 }
+	color_ui = rgb { 241 255 82 }
+}
+
+ACH = {
+	color = rgb { 100 175 215 }
+	color_ui = rgb { 100 175 215 }
+}
+
+FLD = {
+	color = rgb { 220 220 255 }
+	color_ui = rgb { 220 220 255 }
+}
+
+WRA = {
+	color = rgb { 255 46 46 }
+	color_ui = rgb { 255 46 46 }
+}
+

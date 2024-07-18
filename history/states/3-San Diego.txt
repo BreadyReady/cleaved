@@ -6,9 +6,8 @@ state={
 		1891 2482 3471 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
+		owner = SOC
+		add_core_of = SOC
         buildings = {
             infrastructure = 4
             industrial_complex = 7

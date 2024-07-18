@@ -5,8 +5,8 @@ state={
 		726 3512 3519 
 	}
 	history = {
-		owner = MEX
-		add_core_of = MEX
+		owner = SOC
+		add_core_of = SOC
         buildings = {
             infrastructure = 4
             industrial_complex = 7

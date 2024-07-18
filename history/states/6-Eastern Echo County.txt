@@ -5,9 +5,8 @@ state={
 		1067 2205 3413 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
+		owner = SOC
+		add_core_of = SOC
 		victory_points = { 2205 1 }
 
 	}

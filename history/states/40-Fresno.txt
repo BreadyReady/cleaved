@@ -6,9 +6,8 @@ state={
 		556 1601 2046 3228 3229 3240 3242 3253 3254 3258 3260 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
+		owner = VAL
+		add_core_of = VAL
 		victory_points = { 3229 15 }
 
 	}

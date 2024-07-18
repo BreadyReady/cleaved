@@ -5,11 +5,8 @@ state={
 		3434 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
-		victory_points = { 3434 5 }
-
+		owner = SOC
+		add_core_of = SOC
 	}
 	manpower=55000
 	buildings_max_level_factor=1.000

@@ -5,10 +5,8 @@ state={
 		821 3061 3077 3084 3089 3095 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = SPI
+		owner = ACH
+		add_core_of = ACH
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

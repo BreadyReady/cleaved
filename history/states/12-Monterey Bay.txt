@@ -5,10 +5,8 @@ state={
 		535 3159 3171 3181 3187 3193 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = SPI
+		owner = BAY
+		add_core_of = BAY
 		victory_points = { 3187 5 }
 
 	}

@@ -5,9 +5,8 @@ state={
 		880 1447 1585 2148 2332 2884 2887 2914 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
+		owner = CHL
+		add_core_of = CHL
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

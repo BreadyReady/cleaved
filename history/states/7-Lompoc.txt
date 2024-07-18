@@ -3,11 +3,10 @@ state={
 	name="STATE_7"
 	provinces={
 		592 1562 1743 3331 
-	}
+	}	
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
+		owner = VAL
+		add_core_of = VAL
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

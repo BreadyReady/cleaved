@@ -5,9 +5,8 @@ state={
 		516 579 744 978 1381 1557 1716 2138 2152 2447 3039 3088 3104 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = MST
+		owner = PTK
+		add_core_of = PTK
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

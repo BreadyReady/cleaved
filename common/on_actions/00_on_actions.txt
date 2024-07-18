@@ -4,10 +4,6 @@ on_actions = {
 			every_country = {
 				country_event = welcome.0
 			}
-			OCE = {
-				country_event = { id = cleaving.0 days = 1 }
-				country_event = { id = cleaving.1 days = 48 }
-			}
 			MEW = {
 				set_variable  = {
 					var = eclipsa_cold
@@ -29,27 +25,14 @@ on_actions = {
 					var = mew_us_inf
 					value = 0
 				}
+				#country_event = { id = visnov_trigger.4 hours = 1 }
+				country_event = { id = cleaving.7 days = 0 }
 				set_global_flag = mina_free_flag
 			}
+			
 		}
 	}
 	on_declare_war = {
-		effect = {
-			if = {
-				limit = {
-					tag = MEW
-					FROM = { tag = CLE }
-				}
-				hidden_effect = {
-					country_event = { id = flavor.3 days = 11 }
-					every_country = {
-						country_event = { id = cleaving.4 days = 6 }
-						country_event = { id = cleaving.5 days = 9 }
-						country_event = { id = cleaving.6 days = 14 }
-					}
-				}
-			}
-		}
 	}
 	
 }

@@ -5,8 +5,8 @@ state={
 		1775 2028 2559 3400 3421 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = SOC
+		add_core_of = SOC
         buildings = {
             infrastructure = 4
             industrial_complex = 7

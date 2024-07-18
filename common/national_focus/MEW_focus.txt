@@ -16,210 +16,10 @@ focus_tree = {
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 	
 	focus = {
-		id = MEW_stow_the_flames
-		icon = GFX_goal_focus_broken_wand
-		x = 6
-		y = 0
-				
-		bypass = {} 
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_stability = 0.05
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
-		id = MEW_prioritize_nobles
-		icon = GFX_goal_focus_mewman_royals
-		x = -1
-		y = 1
-		relative_position_id = MEW_stow_the_flames 
-		prerequisite = { focus = MEW_stow_the_flames }
-		mutually_exclusive = { focus = MEW_prioritize_peasants }
-
-		bypass = {} 
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_stability = 0.01
-			add_political_power = 25
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-
-	focus = {
-		id = MEW_a_full_desk
-		icon = GFX_goal_focus_moon_paperwork
-		x = 0
-		y = 1
-		relative_position_id = MEW_prioritize_nobles 
-		prerequisite = { focus = MEW_prioritize_nobles }
-
-		bypass = {} 
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#country_event = MEW_full_desk.0
-			custom_effect_tooltip = full_desk_tooltip
-			set_country_flag = mew_full_desk
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
-		id = MEW_placeholder
-		icon = GFX_goal_focus_mewman_knights
-		x = -2
-		y = 1
-		relative_position_id = MEW_prioritize_nobles 
-		prerequisite = { focus = MEW_prioritize_nobles }
-		available = {
-			NOT = {
-				has_completed_focus = MEW_end_of_the_cleaving_chaos
-			}
-		}
-
-		bypass = {} 
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 25
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
-		id = MEW_prioritize_peasants
-		icon = GFX_goal_focus_sad_peasants
-		x = 1
-		y = 1
-		relative_position_id = MEW_stow_the_flames 
-		prerequisite = { focus = MEW_stow_the_flames }
-		mutually_exclusive = { focus = MEW_prioritize_nobles }
-
-		bypass = {} 
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_stability = 0.04
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
-		id = MEW_utilize_vehicles
-		icon = GFX_goal_focus_overturned_car
-		x = 0
-		y = 1
-		relative_position_id = MEW_prioritize_peasants 
-		prerequisite = { focus = MEW_prioritize_peasants }
-
-		bypass = {} 
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_stability = 0.03
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
-		id = MEW_allow_redcross
-		icon = GFX_goal_focus_two_professionals
-		x = 2
-		y = 1
-		relative_position_id = MEW_prioritize_peasants 
-		prerequisite = { focus = MEW_prioritize_peasants }
-		available = {
-			NOT = {
-				has_completed_focus = MEW_end_of_the_cleaving_chaos
-			}
-		}
-		
-		bypass = {} 
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_stability = 0.05
-			add_to_variable = {
-				var = mew_us_inf
-				value = 1
-				tooltip = mew_us_tooltip
-			}
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
 		id = MEW_end_of_the_cleaving_chaos
 		icon = GFX_goal_focus_mewmans_take_shelter
 		x = 0
-		y = 3
+		y = 0
 		relative_position_id = MEW_stow_the_flames 
 		prerequisite = { focus = MEW_a_full_desk focus = MEW_utilize_vehicles }
 		
@@ -245,67 +45,6 @@ focus_tree = {
 					days = 28
 				}
 			}
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
-		id = MEW_negotiation_over_cleaved
-		icon = a
-		x = 1
-		y = 1
-				
-		available = {
-			always = no
-		}
-		mutually_exclusive = { focus = MEW_protect_sovereignty }
-		relative_position_id = MEW_end_of_the_cleaving_chaos 
-		prerequisite = { focus = MEW_end_of_the_cleaving_chaos }
-		
-		cost = 0.3
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			USA = {
-				country_event = cleaving.3
-			}
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
-		id = MEW_protect_sovereignty
-		icon = GFX_goal_focus_butterfly_castle
-		x = 3
-		y = 1
-				
-		available = {
-			always = no
-		}
-		mutually_exclusive = { focus = MEW_negotiation_over_cleaved }
-		relative_position_id = MEW_end_of_the_cleaving_chaos 
-		prerequisite = { focus = MEW_end_of_the_cleaving_chaos }
-		
-		cost = 0.3
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
 		}
 		
 		ai_will_do = {
@@ -404,7 +143,7 @@ focus_tree = {
 		id = MEW_rise_of_the_parties
 		icon = GFX_goal_focus_bunch_of_mewmans
 		x = 14
-		y = 3
+		y = 0
 				
 		bypass = {}
 		available = {always = no}
@@ -734,76 +473,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MEW_begin_reclamation
-		icon = a
-		x = 0
-		y = 1
-				
-		bypass = {}
-		available = { }
-		relative_position_id = MEW_negotiation_over_cleaved 
-		prerequisite = { focus = MEW_end_of_the_initial_chaos }
-		prerequisite = { focus = MEW_negotiation_over_cleaved }
-		available = {}
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
-		id = MEW_aggresive_expansion
-		icon = GFX_goal_focus_mewman_knights
-		x = 0
-		y = 1
-				
-		bypass = {}
-		available = { }
-		relative_position_id = MEW_protect_sovereignty 
-		prerequisite = { focus = MEW_end_of_the_initial_chaos }
-		prerequisite = { focus = MEW_protect_sovereignty }
-		available = {}
-		cost = 1
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			declare_war_on = {
-				target = CLE
-				type = annex_everything
-			}
-			USA = {
-				declare_war_on = {
-					target = CLE
-					type = annex_everything
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	
-	focus = {
 		id = MEW_modernization
 		icon = GFX_goal_focus_general_construction_crane
 		x = 24
-		y = 3
+		y = 0
 				
 		bypass = {}
 		available = { always = no }
@@ -2863,7 +2536,7 @@ focus_tree = {
 		id = MEW_queen_of_darkness
 		icon = GFX_goal_focus_eclipsa_superior
 		x = 4
-		y = 6
+		y = 3
 		
 		bypass = {}
 		mutually_exclusive = { focus = MEW_establish_regency }

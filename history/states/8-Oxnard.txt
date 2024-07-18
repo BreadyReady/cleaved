@@ -5,9 +5,8 @@ state={
 		1452 1834 3379 3386 3387 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
+		owner = SOC
+		add_core_of = SOC
 		victory_points = { 3387 15 }
 	}
 	manpower=201879

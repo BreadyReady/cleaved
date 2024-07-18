@@ -5,9 +5,8 @@ state={
 		4 349 466 624 831 1023 1495 1516 1640 1720 1954 3153 3199 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = MST
+		owner = FRG
+		add_core_of = FRG
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

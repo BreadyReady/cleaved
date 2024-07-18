@@ -5,9 +5,8 @@ state={
 		1249 1279 1672 2124 2165 2484 3070 3081 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_claim_by = SPI
+		owner = NEV
+		add_core_of = NEV
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

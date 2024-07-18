@@ -5,8 +5,8 @@ state={
 		1534 1619 1669 2328 2353 3440 3456 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = SOC
+		add_core_of = SOC
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

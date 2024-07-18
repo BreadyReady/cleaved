@@ -5,10 +5,8 @@ state={
 		276 1713 2305 2903 2932 2940 2957 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = SPT
-		add_core_of = CAL
+		owner = CHL
+		add_core_of = CHL
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

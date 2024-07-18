@@ -6,8 +6,8 @@ state={
 	}
 	manpower=50000
 	history = {
-		owner = OCE
-		add_core_of = OCE
+		owner = PIG
+		add_core_of = PIG
 	}
 	buildings_max_level_factor=1.000
  	state_category=rural

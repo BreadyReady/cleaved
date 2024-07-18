@@ -5,8 +5,8 @@ state={
 		1093 3257 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = NAV
+		add_core_of = NAV
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

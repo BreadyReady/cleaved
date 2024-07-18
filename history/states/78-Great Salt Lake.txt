@@ -6,9 +6,8 @@ state={
 		363 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = SPT
+		owner = STS
+		add_core_of = STS
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

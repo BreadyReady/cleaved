@@ -4,9 +4,8 @@ state={
 	name="STATE_110"
 
 	history={
-		owner = USA
-		add_core_of = USA
-		add_core_of = MST
+		owner = PTK
+		add_core_of = PTK
 
 	}
 

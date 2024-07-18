@@ -5,8 +5,7 @@ state={
 		521 539 1142 1345 1756 1852 2074 2224 2495 2868 2870 2873 2890 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = SPT
 		add_core_of = SPT
 	}
 	manpower=100000

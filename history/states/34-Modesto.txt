@@ -6,10 +6,8 @@ state={
 		864 945 949 1079 1576 1608 2052 2265 2378 2382 3146 3147 3149 3152 3160 3169 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = SPI
+		owner = VAL
+		add_core_of = VAL
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

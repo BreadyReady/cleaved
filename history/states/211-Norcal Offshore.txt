@@ -7,8 +7,8 @@ state={
 	}
 	manpower=1
 	history = {
-		owner = OCE
-		add_core_of = OCE
+		owner = SPI
+		add_core_of = SPI
 	}
 	buildings_max_level_factor=1.000
 	state_category=town

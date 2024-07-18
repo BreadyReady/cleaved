@@ -5,10 +5,8 @@ state={
 		767 1152 1455 1473 1761 2054 2356 2941 2955 2959 2973 2978 2981 2987 2989 3011 3016 3018 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = SPI
+		owner = ACH
+		add_core_of = ACH
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

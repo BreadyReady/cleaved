@@ -5,10 +5,8 @@ state={
 		1744 1844 2552 3132 3145 
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
-		add_core_of = CAL
-		add_claim_by = SPI
+		owner = BAY
+		add_core_of = BAY
         buildings = {
             infrastructure = 4
             industrial_complex = 7
