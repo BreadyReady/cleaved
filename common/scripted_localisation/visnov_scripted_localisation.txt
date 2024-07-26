@@ -37,6 +37,12 @@ defined_text = {
         }
         localization_key = "GFX_visnov_bg_6"
     }
+    text = {
+        trigger = {
+			check_variable = { visnov_bg_var = 7 }
+        }
+        localization_key = "GFX_visnov_bg_7"
+    }
 }
 
 defined_text = {
@@ -77,6 +83,18 @@ defined_text = {
 			check_variable = { visnov_portrait_var = 6 }
         }
         localization_key = "GFX_visnov_portrait_marco_loc"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_portrait_var = 7 }
+        }
+        localization_key = "GFX_visnov_portrait_cowboy"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_portrait_var = 8 }
+        }
+        localization_key = "GFX_visnov_portrait_mina"
     }
 }
 
@@ -142,6 +160,18 @@ defined_text = {
 			check_variable = { visnov_variable_text_speaker_var = 10 }
         }
         localization_key = "visnov_variable_text_speaker_10"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speaker_var = 11 }
+        }
+        localization_key = "visnov_variable_text_speaker_11"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speaker_var = 12 }
+        }
+        localization_key = "visnov_variable_text_speaker_12"
     }
 }
 
@@ -358,6 +388,126 @@ defined_text = {
         }
         localization_key = "visnov_variable_text_speech_35"
     }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 36 }
+        }
+        localization_key = "visnov_variable_text_speech_36"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 37 }
+        }
+        localization_key = "visnov_variable_text_speech_37"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 38 }
+        }
+        localization_key = "visnov_variable_text_speech_38"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 39 }
+        }
+        localization_key = "visnov_variable_text_speech_39"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 40 }
+        }
+        localization_key = "visnov_variable_text_speech_40"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 41 }
+        }
+        localization_key = "visnov_variable_text_speech_41"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 42 }
+        }
+        localization_key = "visnov_variable_text_speech_42"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 43 }
+        }
+        localization_key = "visnov_variable_text_speech_43"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 44 }
+        }
+        localization_key = "visnov_variable_text_speech_44"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 45 }
+        }
+        localization_key = "visnov_variable_text_speech_45"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 46 }
+        }
+        localization_key = "visnov_variable_text_speech_46"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 47 }
+        }
+        localization_key = "visnov_variable_text_speech_47"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 48 }
+        }
+        localization_key = "visnov_variable_text_speech_48"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 49 }
+        }
+        localization_key = "visnov_variable_text_speech_49"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 50 }
+        }
+        localization_key = "visnov_variable_text_speech_50"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 51 }
+        }
+        localization_key = "visnov_variable_text_speech_51"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 52 }
+        }
+        localization_key = "visnov_variable_text_speech_52"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 53 }
+        }
+        localization_key = "visnov_variable_text_speech_53"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 54 }
+        }
+        localization_key = "visnov_variable_text_speech_54"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 55 }
+        }
+        localization_key = "visnov_variable_text_speech_55"
+    }
 }
 
 defined_text = {
@@ -383,6 +533,13 @@ defined_text = {
         }
         localization_key = "visnov_variable_dec1_text_scripted_loc_3"
     }
+    
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_dec1_text_scripted_loc_var = 4 }
+        }
+        localization_key = "visnov_variable_dec1_text_scripted_loc_4"
+    }
 }
 
 defined_text = {
@@ -407,6 +564,13 @@ defined_text = {
 			check_variable = { visnov_variable_dec2_text_scripted_loc_var = 3 }
         }
         localization_key = "visnov_variable_dec2_text_scripted_loc_3"
+    }
+    
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_dec2_text_scripted_loc_var = 4 }
+        }
+        localization_key = "visnov_variable_dec2_text_scripted_loc_4"
     }
 }
 

@@ -541,6 +541,10 @@ next_slide_effect = {
 				visnov_variable_text_speech_var = 30 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
 			}
 		}
+		country_event = {
+			id = MEW_visnov_consequence.1
+			hours = 3
+		}
 		clr_country_flag = visnov_visible
 	}
 	else_if = {
@@ -609,7 +613,327 @@ next_slide_effect = {
 				visnov_variable_text_speech_var = 35 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
 			}
 		}
+		country_event = {
+			id = MEW_visnov_consequence.3
+			hours = 3
+		}
 		clr_country_flag = visnov_visible
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 36 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 37
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 37 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 38
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 38 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var
+			value = 11
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 7
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 39
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 39 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 40
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 40 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 41
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 41 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 12#Mina
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 8#Mina
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 42
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 42 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 43
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 43 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 12 #Mina
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 8 #Mina Portrait
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 44
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 44 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 45
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 45 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 46
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 46 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var
+			value = 11
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 7
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 47
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 47 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 12 #Mina
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 8 #Mina Portrait
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 48
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 48 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 49
+		}
+		
+		set_variable = {
+			var = visnov_variable_dec1_text_scripted_loc_var
+			value = 4
+		}
+		
+		set_variable = {
+			var = visnov_variable_dec2_text_scripted_loc_var
+			value = 4
+		}
+		
+		set_country_flag = visnov_decs1_button_visible_flag
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 50 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 51
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 51 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+
+		clr_country_flag = visnov_visible
+
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 52 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 53
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 53 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var
+			value = 11
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 7
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 54
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 54 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 55
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 55 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+
+		clr_country_flag = visnov_visible
+
+	}
+	
+	else = {
 	}
 }
 
@@ -683,6 +1007,21 @@ dec1_effect = {
 		set_variable = {
 			var = visnov_variable_text_speech_var
 			value = 26
+		}
+		
+		clr_country_flag = visnov_decs1_button_visible_flag
+		
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 49
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 50
 		}
 		
 		clr_country_flag = visnov_decs1_button_visible_flag
@@ -769,6 +1108,21 @@ dec2_effect = {
 		set_variable = {
 			var = visnov_variable_text_speech_var
 			value = 31
+		}
+		
+		clr_country_flag = visnov_decs1_button_visible_flag
+		
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 49
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 52
 		}
 		
 		clr_country_flag = visnov_decs1_button_visible_flag

@@ -54,4 +54,14 @@ spriteTypes = {
 		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_marco.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_visnov_portrait_cowboy"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_cowboy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_mina"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_mina.dds"
+	}
+	
 }

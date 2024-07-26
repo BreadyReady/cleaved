@@ -63,9 +63,9 @@ scripted_gui = {
 			always = yes
 		}
         
-#		ai_check = {
-#            always = yes
-#        }
+		ai_check = {
+			has_country_flag = visnov_visible 
+        }
 #		
 #		ai_check_scope = {
 #			always = yes

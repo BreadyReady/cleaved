@@ -140,3 +140,34 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = visnov_trigger.6
+	title = visnov_trigger.6.t
+	desc = visnov_trigger.6.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = visnov_trigger.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = visnov_visible
+		set_variable = {
+			var = visnov_bg_var
+			value = 4
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var
+			value = 5
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 36
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3
+		}
+	}
+}
