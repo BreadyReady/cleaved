@@ -15,7 +15,7 @@
  MST_DEF:0 "The United Mojave Tribes"
  MST_ADJ:0 "Mojave Tribals"
  
- SPT:0 "Septarian Horde"
+ SPT:0 "Septarsis"
  SPT_DEF:0 "The Septarian Horde"
  SPT_ADJ:0 "Septarian"
  
@@ -103,94 +103,6 @@
  RUS_DEF:0 "Russo"
  RUS_ADJ:0 "Russian"
 
-<<<<<<< Updated upstream
  MON:0 "Traditionalist Revolt"
  MON_DEF:0 "The Traditionalists"
  MON_ADJ:0 "Traditionalst Mewman"
-=======
- MON:0 "Moon's Mewni"
- MON_DEF:0 "Moon's Mewni"
- MON_ADJ:0 "Mewman"
- 
- LAS:0 "Free City of Las Vegas"
- LAS_DEF:0 "Free City of Las Vegas"
- LAS_ADJ:0 "Free City of Las Vegas"
- 
- NAV:0 "Navajo Nation"
- NAV_DEF:0 "Navajo Nation"
- NAV_ADJ:0 "Navajo"
- 
- FRG:0 "Frogmen Federation"
- FRG_DEF:0 "The Frogmen Federation"
- FRG_ADJ:0 "Frogmen"
- 
- AVA:0 "Avarius Kingdom"
- AVA_DEF:0 "The Avarius Kingdom"
- AVA_ADJ:0 "Avarian"
- 
- PTK:0 "Monster's Principalities"
- PTK_DEF:0 "The General Monster's Principalities"
- PTK_ADJ:0 "Mosnter's Principalities"
- 
- STS:0 "Stansbury Militia"
- STS_DEF:0 "The Stansbury Protection Militia"
- STS_ADJ:0 "Stansburian Militia"
- 
- PNY:0 "Ponyhead Ground Holdings"
- PNY_DEF:0 "The Ponyhead Ground Holdings"
- PNY_ADJ:0 "Ponyhead"
- 
- CHL:0 "North California Chaos"
- CHL_DEF:0 "North California Chaos"
- CHL_ADJ:0 "North Californian"
- 
- NCH:0 "Nevada Chaos"
- NCH_DEF:0 "Nevada Chaos"
- NCH_ADJ:0 "Nevadan"
- 
- NEV:0 "Nevada State Government"
- NEV_DEF:0 "Nevada State Government"
- NEV_ADJ:0 "Nevadan"
- 
- BAY:0 "Bay Area Government"
- BAY_DEF:0 "Bay Area Government"
- BAY_ADJ:0 "Bay Area"
- 
- VAL:0 "Southern Valley Government"
- VAL_DEF:0 "Southern Valley Government"
- VAL_ADJ:0 "Southern Valley"
- 
- ACH:0 "Arachne's Duchy"
- ACH_DEF:0 "Arachne's Duchy"
- ACH_ADJ:0 "Arachne Ducal"
- 
- SOC:0 "Socal Government"
- SOC_DEF:0 "The Socal Government"
- SOC_ADJ:0 "Socal"
- 
- FLD:0 "Featherleg Duchy"
- FLD_DEF:0 "Featherleg Duchy"
- FLD_ADJ:0 "Featherleg Duchy"
- 
- WRA:0 "Wrathmelior Overworld Holdings"
- WRA_DEF:0 "Wrathmelior Overworld Holdings"
- WRA_ADJ:0 "Underworld"
- 
- #Cosmetic
- 
- CAL_chaos:0 "Sacramento Chaos"
- CAL_chaos_DEF:0 "The Sacramento Chaos"
- CAL_chaos_ADJ:0 "Sacramentan"
- 
- BAY_chaos:0 "Bay Area Chaos"
- BAY_chaos_DEF:0 "The Bay Area Chaos"
- BAY_chaos_ADJ:0 "Bay Arean"
- 
- VAL_chaos:0 "South Valley Chaos"
- VAL_chaos_DEF:0 "The South Valley Chaos"
- VAL_chaos_ADJ:0 "South Valleyan"
- 
- NEV_chaos:0 "Reno Chaos"
- NEV_chaos_DEF:0 "The Reno Chaos"
- NEV_chaos_ADJ:0 "Reno"
->>>>>>> Stashed changes

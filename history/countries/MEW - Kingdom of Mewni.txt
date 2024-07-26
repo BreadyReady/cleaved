@@ -1,6 +1,6 @@
 ﻿capital = 5
 
-set_stability = 0.5
+set_stability = 0.18
 set_war_support = 0.35
 
 set_politics = {
@@ -26,18 +26,17 @@ add_ideas = {
 	MEW_mercantalism
 	MEW_feudal_levy
 	#
-	MEW_sea_water_flooding_1
-	MEW_minan_collaborator_question
-	MEW_political_radicalism
 	MEW_squire_process
+	MEW_whole_new_world
 	MEW_mina_on_the_loose
+	MEW_recent_strife
 	MEW_feudal_promise
 }
 
 recruit_character = MEW_eclipsa_butterfly
+recruit_character = MEW_moon_butterfly
 recruit_character = MEW_trad_council
 #ADVISORS
-recruit_character = MEW_political_stability_char
 recruit_character = MEW_marco_diaz
 recruit_character = MEW_political_trad_char
 recruit_character = MEW_political_trad_2_char

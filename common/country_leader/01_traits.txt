@@ -73,16 +73,6 @@ leader_traits = {
 		}
 	}
 	#
-	silent_stabiliizer = {
-		random = no
-		sprite = 5
-		stability_factor = 0.15
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#
 	mass_manufacture = {
 		random = no
 

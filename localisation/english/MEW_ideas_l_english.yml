@@ -1,37 +1,5 @@
 ﻿l_english:
 
  MEW_feudal_levy:0 "Warrior Caste"
- MEW_feudalism:0 "Feudal Economics"
+ MEW_feudalism:0 "Feudal Administration"
  MEW_mercantalism:0 "Mewman Mercantalism"
- 
- #
- 
- MEW_sea_water_flooding_1:0 "Catastrophic Pacific Seawater Flooding"
- MEW_sea_water_flooding_1_desc:0 "Pacific Seawater Flooding Description"
- 
- MEW_sea_water_flooding_2:0 "Catastrophic Pacific Seawater Flooding"
- MEW_sea_water_flooding_2_desc:0 "Pacific Seawater Flooding Description"
- 
- MEW_sea_water_flooding_3:0 "Catastrophic Pacific Seawater Flooding"
- MEW_sea_water_flooding_3_desc:0 "Pacific Seawater Flooding Description"
- 
- MEW_sea_water_flooding_4:0 "Extreme Pacific Seawater Flooding"
- MEW_sea_water_flooding_4_desc:0 "Pacific Seawater Flooding Description"
- 
- MEW_sea_water_flooding_5:0 "Extreme Pacific Seawater Flooding"
- MEW_sea_water_flooding_5_desc:0 "Pacific Seawater Flooding Description"
- 
- MEW_sea_water_flooding_6:0 "Extreme Pacific Seawater Flooding"
- MEW_sea_water_flooding_6_desc:0 "Pacific Seawater Flooding Description"
- 
- MEW_sea_water_flooding_7:0 "Extreme Pacific Seawater Flooding"
- MEW_sea_water_flooding_7_desc:0 "Pacific Seawater Flooding Description"
- 
- MEW_sea_water_flooding_8:0 "Moderate Pacific Seawater Flooding"
- MEW_sea_water_flooding_8_desc:0 "Pacific Seawater Flooding Description"
- 
- MEW_sea_water_flooding_9:0 "Moderate Pacific Seawater Flooding"
- MEW_sea_water_flooding_9_desc:0 "Pacific Seawater Flooding Description"
- 
- MEW_sea_water_flooding_10:0 "Minor Pacific Seawater Flooding"
- MEW_sea_water_flooding_10_desc:0 "Pacific Seawater Flooding Description"

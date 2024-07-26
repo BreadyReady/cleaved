@@ -29,11 +29,6 @@ on_actions = {
 					var = mew_us_inf
 					value = 0
 				}
-<<<<<<< Updated upstream
-=======
-				country_event = { id = visnov_trigger.4 hours = 1 }
-				country_event = { id = cleaving.7 days = 0 }
->>>>>>> Stashed changes
 				set_global_flag = mina_free_flag
 			}
 		}

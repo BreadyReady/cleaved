@@ -29,6 +29,14 @@ characters={
 			}
 		}
 	}
+	MEW_moon_butterfly = {
+		name = "Moon Butterfly"
+		portraits={
+			civilian={
+				large = GFX_hoi4_portrait_moon_war
+			}
+		}
+	}
 	MEW_trad_council = {
 		name = "Traditionalist Council"
 		portraits={
@@ -64,27 +72,6 @@ characters={
 			}
 			traits  = {
 				last_solarian
-			}
-		}
-	}
-	
-	MEW_political_stability_char={
-		name=MEW_political_stability_char_name
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
-			}
-			civilian = {
-				large = GFX_portrait_hoi4_portrait_mina
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = MEW_political_stability_char_idea
-			available  = {
-			}
-			traits  = {
-				silent_stabiliizer
 			}
 		}
 	}

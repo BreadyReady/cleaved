@@ -1,29 +1,4 @@
 ﻿l_english:
- #####
- #NEW#
- #####
- 
- MEW_bail_water:0 "Bail! Bail! Bail!"
- MEW_bail_water_tooltip:0 "Unlock decisions to get rid of sea water flooding"
- 
- MEW_modern_pumps:0 "Modern Pump Systems"
- 
- MEW_bucket_lines:0 "Bucket Lines"
- 
- MEW_a_dry_mewni:0 "A Dry Mewni"
-
- MEW_throne_disputes:0 "A Minor Dispute"
- 
- MEW_moons_rightful_throne:0 "Moon's Rightful Throne"
- 
- MEW_maintain_eclipsas_rule:0 "Maintain Eclipsa's Rule"
- 
- MEW_power_to_nobles:0 "Shadow Cabal"
- MEW_power_to_nobles_desc:0 "To a secretive yet powerful group of nobles, this time of hardship is an opportunity. Both Moon and Eclipsa do not align with their interests, and the possibility of installing a puppet monarch while the throne is in dispute is all too alluring."
- 
- #####
- #OLD#
- #####
  MEW_stow_the_flames:0 "Stow the Flames"
  MEW_stow_the_flames_desc:0 "Officials in disarray, Star going missing, half our kingdom merging with another world, Magic ceasing to exist, all of this in the aftermath of a coup and a monster rights movement! With atleast Mina gone, we can start addressing the crisis in the wider Kingdom."
  
@@ -54,7 +29,7 @@
  MEW_protect_sovereignty:0 "Protect Our Sovereignty"
  MEW_protect_sovereignty_desc:0 "Our Lands in the Cleaved Zone are Unquestionably Mewman! (To rewrite)"
  
- MEW_traitors_purge:0 "Arrest Loveberrian Traitors"
+ MEW_traitors_purge:0 "Purge Loveberrian Traitors"
  MEW_traitors_purge_desc:0 "Those Mewmans who sided with Mina during the coup showed their true colors. They must be punished! (To rewrite)"
  
  MEW_traitors_mercy:0 "Mercy"
@@ -227,5 +202,3 @@
  
  MEW_end_the_early_cleaved_era:0 "End of the Early Cleaved Era"
  MEW_end_the_early_cleaved_era_desc:0 "TO WRITE"
- 
- 
