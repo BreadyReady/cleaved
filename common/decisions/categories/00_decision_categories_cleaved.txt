@@ -23,3 +23,16 @@ MEW_cleaved_land_peace = {
 	}
 }
 
+#####
+#NEW#
+#####
+
+MEW_bail_water_category = {
+	icon = GFX_decision_infiltrate_state
+
+	visible = {
+		always = yes
+		has_completed_focus = MEW_bail_water
+	}
+}
+

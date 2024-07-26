@@ -1,0 +1,14 @@
+﻿capital = 224
+
+set_stability = 0.40
+set_war_support = 0.80
+
+set_politics = {
+	ruling_party = mewman_monarchy
+}
+set_popularities = {
+	mewman_monarchy = 65
+	democratic = 35
+}
+
+recruit_character = MEW_moon_butterfly

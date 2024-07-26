@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 add_namespace = MEW_test
 add_namespace = MEW_event
 add_namespace = MEW_mina_hunt
@@ -207,10 +208,23 @@ country_event = {
 	title = MEW_flavor.1.t
 	desc = MEW_flavor.1.desc
 	picture = GFX_report_event_empty_event
+=======
+﻿add_namespace = MEW_visnov_consequence
+add_namespace = MEW_extremism
+add_namespace = MEW_moon
+add_namespace = MEW_mina
+
+country_event = {
+	id = MEW_visnov_consequence.1
+	title = MEW_visnov_consequence.1.t
+	desc = MEW_visnov_consequence.1.d
+	picture = GFX_eclipsa_and_star_event
+>>>>>>> Stashed changes
 	
 	is_triggered_only = yes
 	
 	option = { 
+<<<<<<< Updated upstream
 		name = MEW_flavor.1.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
 	}
@@ -473,6 +487,14 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = MEW_event.1
+=======
+		name = MEW_visnov_consequence.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_stability = 0.01
+		hidden_effect = {
+			country_event = {
+				id = MEW_visnov_consequence.2
+>>>>>>> Stashed changes
 				days = 2
 			}
 		}
@@ -480,6 +502,7 @@ country_event = {
 }
 
 country_event = {
+<<<<<<< Updated upstream
 	id = MEW_event.1
 	title = MEW_event.1.t
 	desc = MEW_event.1.desc
@@ -533,11 +556,96 @@ country_event = {
 	id = MEW_event.3
 	title = MEW_event.3.t
 	desc = MEW_event.3.desc
+=======
+	id = MEW_visnov_consequence.2
+	title = MEW_visnov_consequence.2.t
+	desc = MEW_visnov_consequence.2.d
+	picture = GFX_noble_with_mewman_flag
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_visnov_consequence.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_stability = -0.02
+	}
+}
+
+country_event = {
+	id = MEW_visnov_consequence.3
+	title = MEW_visnov_consequence.3.t
+	desc = MEW_visnov_consequence.3.d
+	picture = GFX_thinking_eclipsa
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_visnov_consequence.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_stability = 0.02
+		hidden_effect = {
+			country_event = {
+				id = MEW_visnov_consequence.4
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = MEW_visnov_consequence.4
+	title = MEW_visnov_consequence.4.t
+	desc = MEW_visnov_consequence.4.d
+	picture = GFX_star_objecting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_visnov_consequence.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_stability = -0.01
+	}
+}
+
+#
+
+country_event = {
+	id = MEW_mina.1
+	title = MEW_mina.1.t
+	desc = MEW_mina.1.d
+	picture = GFX_mina_event
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_mina.1.a
+		ai_chance = { factor = 0 }	# 100% AI choose this
+		custom_effect_tooltip = MEW_mina_1_tooltip
+	}
+	
+	option = { 
+		name = MEW_mina.1.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		custom_effect_tooltip = MEW_mina_1_tooltip_2
+		hidden_effect = {
+			NCH = {
+				country_event = visnov_trigger.6
+			}
+		}
+	}
+}
+
+country_event = {
+	id = MEW_extremism.2
+	title = MEW_extremism.2.t
+	desc = MEW_extremism.2.d
+>>>>>>> Stashed changes
 	picture = GFX_2_mewmans_arguing_event
 	
 	is_triggered_only = yes
 	
 	option = { 
+<<<<<<< Updated upstream
 		name = MEW_event.3.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
 		complete_national_focus = MEW_rise_of_the_parties
@@ -631,10 +739,27 @@ country_event = {
 	title = MEW_flavor.3.t
 	desc = MEW_flavor.3.desc
 	picture = GFX_report_event_empty_event
+=======
+		name = MEW_extremism.2.a
+		ai_chance = { factor = 0 }	# 100% AI choose this
+		swap_ideas = {
+			remove_idea = MEW_political_radicalism
+			add_idea = MEW_political_radicalism_2
+		}
+	}
+}
+
+country_event = {
+	id = MEW_extremism.3
+	title = MEW_extremism.3.t
+	desc = MEW_extremism.3.d
+	picture = GFX_2_mewmans_arguing_event
+>>>>>>> Stashed changes
 	
 	is_triggered_only = yes
 	
 	option = { 
+<<<<<<< Updated upstream
 		name = MEW_flavor.3.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
 	}
@@ -900,11 +1025,19 @@ country_event = {
 		ai_chance = { factor = 75 }	# 60% AI choose this
 		MEW = {
 			country_event = MEW_mina_hunt.7
+=======
+		name = MEW_extremism.3.a
+		ai_chance = { factor = 0 }	# 100% AI choose this
+		swap_ideas = {
+			remove_idea = MEW_political_radicalism
+			add_idea = MEW_political_radicalism_2
+>>>>>>> Stashed changes
 		}
 	}
 }
 
 country_event = {
+<<<<<<< Updated upstream
 	id = MEW_mina_hunt.6
 	title = MEW_mina_hunt.6.t
 	desc = MEW_mina_hunt.6.desc
@@ -939,10 +1072,17 @@ country_event = {
 	title = MEW_full_desk.0.t
 	desc = MEW_full_desk.0.desc
 	picture = GFX_report_event_empty_event
+=======
+	id = MEW_moon.1
+	title = MEW_moon.1.t
+	desc = MEW_moon.1.d
+	picture = f
+>>>>>>> Stashed changes
 	
 	is_triggered_only = yes
 	
 	option = {
+<<<<<<< Updated upstream
 		name = MEW_full_desk.0.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
 		set_country_flag = mew_full_desk
@@ -1541,3 +1681,10 @@ country_event = {
 		complete_national_focus = MEW_the_undaunted
 	}
 }
+=======
+		name = MEW_moon.1.a
+		ai_chance = { factor = 0 }	# 100% AI choose this
+		custom_effect_tooltip = visnov_tooltip #localized in MEW_events_l_english
+	}
+}
+>>>>>>> Stashed changes

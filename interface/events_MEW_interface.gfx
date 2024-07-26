@@ -23,4 +23,24 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MEW/2_mewmans_arguing.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_star_objecting"
+		texturefile = "gfx/event_country_pictures/MEW/star_objecting.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_noble_with_mewman_flag"
+		texturefile = "gfx/event_country_pictures/MEW/noble_with_mewman_flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_thinking_eclipsa"
+		texturefile = "gfx/event_country_pictures/MEW/thinking_eclipsa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_mina_event"
+		texturefile = "gfx/event_country_pictures/MEW/mina_event.dds"
+	}
+	
 }

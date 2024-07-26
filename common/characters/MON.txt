@@ -1,0 +1,14 @@
+characters={
+	MEW_moon_butterfly = {
+		name = "Moon Butterfly"
+		portraits={
+			civilian={
+				large = GFX_hoi4_portrait_moon_war
+			}
+		}
+		country_leader = {
+			ideology = mewman_monarchic_democrat
+			desc = MY_LEADER_DESCRIPTION
+		}
+	}
+}

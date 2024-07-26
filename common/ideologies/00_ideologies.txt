@@ -128,7 +128,7 @@ ideologies = {
 
 		types = {
 
-			loverrianism = {
+			loveberrianism = {
 			}
 
 			nazism = {
@@ -255,6 +255,9 @@ ideologies = {
 			}
 
 			mewman_traditionalism  = {
+			}
+
+			mewman_monarchic_democrat  = {
 			}
 
 			provisional_government_prog = {}
